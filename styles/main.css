@@ -34,10 +34,11 @@ nav > ul > li {
 }
 
 main {
+  width: calc(100% - 16px);
   max-width: 992px;
   box-sizing: border-box;
   margin-inline: 8px;
-  padding-inline: .7em;
+  padding: .7em;
   background-color:#d4b7f8;
   border-radius: 10px;
 }
