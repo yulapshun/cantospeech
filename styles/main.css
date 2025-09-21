@@ -23,9 +23,9 @@ nav {
 }
 
 nav > ul {
-  display: inline-flex;
-  column-gap: 1em;
-  padding-inline: .7em;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 8px;
 }
 
 nav > ul > li {
@@ -51,4 +51,11 @@ footer {
   align-items: center;
   justify-content: center;
   background-color:#d4b7f8;
+}
+
+@media (min-width: 768px) {
+  nav > ul {
+    flex-direction: row;
+    column-gap: 1em;
+  }
 }
