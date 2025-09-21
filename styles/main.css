@@ -27,9 +27,12 @@ nav {
   border-radius: 10px;
 }
 
-nav img {
-  height: 100px;
+nav > .logo-link {
   margin: 8px;
+}
+
+nav > .logo-link > img {
+  height: 100px;
 }
 
 nav > ul {
