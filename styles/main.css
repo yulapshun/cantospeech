@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  font-size: 1.1em;
+  font-family: sans-serif;
 }
 
 body {
@@ -51,6 +53,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color:#d4b7f8;
+  font-size: .7em;
 }
 
 @media (min-width: 768px) {
