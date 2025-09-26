@@ -27,6 +27,16 @@ nav {
   border-radius: 10px;
 }
 
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #113145;
+}
+
+nav a:hover {
+  color: #205b80;
+}
+
 nav > .logo-link {
   margin: 8px;
 }
@@ -75,6 +85,8 @@ footer {
 
   nav > ul {
     flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
     column-gap: 1em;
   }
 }
