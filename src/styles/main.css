@@ -17,8 +17,8 @@ body {
 
 nav {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   width: calc(100% - 16px);
   max-width: 992px;
   margin-inline: 8px;
@@ -37,18 +37,64 @@ nav a:hover {
   color: #205b80;
 }
 
-nav > .logo-link {
+nav .logo-link {
   margin: 8px;
 }
 
-nav > .logo-link > img {
+nav .logo-link > img {
   height: 100px;
 }
 
+nav .menu-toggle, nav .menu-close {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+nav svg > line {
+  stroke: #17151a;
+}
+
+nav .menu-overlay {
+  display: none;
+}
+
+nav .menu-overlay.menu-showing {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 nav > ul {
-  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
   flex-direction: column;
+  align-items: flex-start;
+  margin-block: 0;
   padding-inline: 8px;
+  background-color: #eadcf7;
+}
+
+nav > ul.show {
+  display: flex;
+}
+
+nav > ul > .menu-close {
+  align-self: flex-end;
+  margin-top: 18px;
+  margin-right: 10px;
 }
 
 nav > ul > li {
@@ -79,14 +125,27 @@ footer {
 
 @media (min-width: 768px) {
   nav {
-    flex-direction: row;
     align-items: flex-end;
   }
 
+  nav .menu-toggle, nav .menu-close {
+    display: none;
+  }
+
+  nav .menu-overlay {
+    display: none !important;
+  }
+
   nav > ul {
+    position: static;
+    display: flex !important;
     flex-direction: row;
     flex-grow: 1;
     justify-content: flex-end;
     column-gap: 1em;
+  }
+
+  nav > ul > .menu-toggle {
+    display: none;
   }
 }
