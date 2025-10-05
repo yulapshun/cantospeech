@@ -1,3 +1,4 @@
+/* ----- start global ----- */
 :root {
   --default-margin: 8px;
   --header-height: calc(50px + 2 * var(--default-margin));
@@ -25,6 +26,7 @@ html {
   height: 100%;
   font-size: 1.1em;
   font-family: sans-serif;
+  scroll-padding-top: var(--header-height);
 }
 
 body {
@@ -36,7 +38,9 @@ body {
   background-color: var(--bg-2);
   color: var(--text-color);
 }
+/* ----- end global ----- */
 
+/* ----- start header ----- */
 nav {
   position: sticky;
   top: 0;
@@ -135,7 +139,9 @@ nav .header-menu > ul > li {
   list-style: none;
   text-wrap: nowrap;
 }
+/* ----- end header ----- */
 
+/* ----- start main ----- */
 main {
   width: calc(100% - 4 * var(--default-margin));
   max-width: 992px;
@@ -151,6 +157,7 @@ main > section {
   background-color:var(--bg-1);
   border-radius: 10px;
 }
+/* ----- end main ----- */
 
 footer {
   width: 100%;
@@ -161,6 +168,29 @@ footer {
   justify-content: center;
   background-color:var(--bg-3);
   font-size: .7em;
+}
+
+/* ----- start home page ----- */
+.poster-container {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: var(--default-margin);
+  gap: var(--default-margin);
+}
+
+.poster-container a {
+  flex: 1;
+}
+
+.poster-container img {
+  max-width:100%;
+}
+/* ----- end home page  ----- */
+
+@media (min-width: 576px) {
+  .poster-container {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {
