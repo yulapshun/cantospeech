@@ -126,7 +126,7 @@ nav .header-menu > ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  row-gap: calc(2 * var(--default-margin));
+  row-gap: 1em;
   margin-block-start: calc(var(--header-height) + 2 * var(--default-margin));
   padding-inline: calc(4 * var(--default-margin));
 }
@@ -147,7 +147,7 @@ main {
 
 main > section {
   margin-block-start: var(--default-margin);
-  padding: .7em;
+  padding: var(--default-margin);
   background-color:var(--bg-1);
   border-radius: 10px;
 }
@@ -178,14 +178,20 @@ footer {
 
   nav .header-menu {
     position: static;
-    display: flex !important;
+    display: block !important;
+  }
+
+  nav .header-menu .menu-toggle {
+    display: none;
+  }
+
+  nav .header-menu > ul {
+    display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content: flex-end;
     column-gap: 1em;
-  }
-
-  nav .header-menu > .menu-toggle {
-    display: none;
+    margin-block: auto;
+    padding-inline-end: var(--default-margin);
   }
 }
