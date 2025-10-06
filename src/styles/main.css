@@ -174,22 +174,25 @@ footer {
 .poster-container {
   display: flex;
   flex-direction: column;
-  margin-block-start: var(--default-margin);
+  align-items: center;
   gap: var(--default-margin);
 }
 
 .poster-container a {
-  flex: 1;
+  display: contents;
 }
 
 .poster-container img {
-  max-width:100%;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 /* ----- end home page  ----- */
 
 @media (min-width: 576px) {
   .poster-container {
     flex-direction: row;
+    justify-content: space-around;
   }
 }
 
