@@ -88,12 +88,13 @@ nav a:hover {
 }
 
 nav .logo-link {
-  height: 100%;
-  margin: var(--default-margin);
+  display: contents;
 }
 
 nav .logo-link > img {
   height: 100%;
+  min-width: 0px;
+  padding-inline-end: calc(30px + 2 * var(--default-margin));
 }
 
 nav .menu-toggle, nav .menu-close {
@@ -151,7 +152,7 @@ nav .header-menu > ul {
   align-items: flex-start;
   row-gap: 1em;
   margin-block-start: calc(var(--header-height) + 2 * var(--default-margin));
-  padding-inline: calc(4 * var(--default-margin));
+  padding-inline-end: calc(4 * var(--default-margin));
 }
 
 nav .header-menu > ul > li {
