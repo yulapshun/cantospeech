@@ -16,6 +16,7 @@
     --color-5: oklch(0.688 0.180 304.8);
     --color-6: oklch(0.754 0.138 304.8);
     --main-color: oklch(0.819 0.099 304.8);
+    --main-color-light: oklch(0.849 0.069 304.8);
     --bg-3: oklch(0.885 0.061 304.8);
     --bg-2: oklch(0.950 0.026 304.8);
     --bg-1: oklch(0.980 0.004 301.4);
@@ -49,14 +50,14 @@ body {
   line-height: 40px;
   border-radius: 20px;
   padding-inline: 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--main-color);
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
 
 .button-link:hover {
-  background-color: var(--secondary-color-light);
+  background-color: var(--main-color-light);
 }
 /* ----- end global ----- */
 
