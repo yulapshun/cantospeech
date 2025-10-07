@@ -164,7 +164,7 @@ nav .header-menu > ul > li {
 
 /* ----- start main ----- */
 main {
-  width: calc(100% - 4 * var(--default-margin));
+  width: calc(100% - 2 * var(--default-margin));
   max-width: 992px;
   box-sizing: border-box;
   margin-block-start: calc(2 * var(--default-margin));
@@ -174,7 +174,7 @@ main {
 
 main > section {
   margin-block-start: var(--default-margin);
-  padding: calc(2 * var(--default-margin));
+  padding: var(--default-margin);
   background-color:var(--bg-1);
   border-radius: 10px;
 }
@@ -247,5 +247,13 @@ footer {
     column-gap: 1em;
     margin-block: auto;
     padding-inline-end: var(--default-margin);
+  }
+
+  main {
+    width: calc(100% - 4 * var(--default-margin));
+  }
+
+  main > section {
+    padding: calc(2 * var(--default-margin));
   }
 }
