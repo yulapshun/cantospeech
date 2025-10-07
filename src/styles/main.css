@@ -19,6 +19,9 @@
     --bg-3: oklch(0.885 0.061 304.8);
     --bg-2: oklch(0.950 0.026 304.8);
     --bg-1: oklch(0.980 0.004 301.4);
+
+    --secondary-color: oklch(0.712 0.133 248.3);
+    --secondary-color-light: oklch(0.742 0.113 248.3);
   }
 }
 
@@ -38,6 +41,22 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--bg-2);
+}
+
+.button-link {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  padding-inline: 20px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-link:hover {
+  background-color: var(--secondary-color-light);
 }
 /* ----- end global ----- */
 
