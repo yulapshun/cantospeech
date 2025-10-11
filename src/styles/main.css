@@ -178,6 +178,18 @@ main > section {
   background-color:var(--bg-1);
   border-radius: 10px;
 }
+
+main > section .top {
+  display: flex;
+  flex-direction: column;
+}
+
+main > section .top > img {
+  align-self: center;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+}
 /* ----- end main ----- */
 
 footer {
@@ -255,5 +267,13 @@ footer {
 
   main > section {
     padding: calc(2 * var(--default-margin));
+  }
+
+  main > section .top {
+    flex-direction: row;
+  }
+
+  main > section .top img {
+    min-width: 300px;
   }
 }
