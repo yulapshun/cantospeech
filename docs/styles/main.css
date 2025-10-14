@@ -59,6 +59,10 @@ body {
 .button-link:hover {
   background-color: var(--main-color-light);
 }
+
+ol, ul {
+  padding-inline-start: 20px;
+}
 /* ----- end global ----- */
 
 /* ----- start header ----- */
