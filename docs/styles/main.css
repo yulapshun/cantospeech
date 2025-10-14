@@ -44,6 +44,10 @@ body {
   background-color: var(--bg-2);
 }
 
+h1, h2 {
+  line-height: 1.3em;
+}
+
 .button-link {
   display: inline-block;
   height: 40px;
@@ -238,6 +242,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  ol, ul {
+    padding-inline-start: revert;
+  }
+
   nav {
     align-items: center;
   }
