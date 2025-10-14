@@ -48,6 +48,14 @@ h1, h2 {
   line-height: 1.3em;
 }
 
+.mobile-only {
+  display: revert;
+}
+
+.desktop-only {
+  display: none;
+}
+
 .button-link {
   display: inline-block;
   height: 40px;
@@ -246,6 +254,14 @@ footer {
     padding-inline-start: revert;
   }
 
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: revert;
+  }
+
   nav {
     align-items: center;
   }
@@ -291,5 +307,9 @@ footer {
 
   main > section .top img {
     min-width: 300px;
+  }
+
+  main > section .top .button-link {
+    margin-inline-start: 40px;
   }
 }
