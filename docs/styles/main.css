@@ -75,6 +75,11 @@ h1, h2 {
 ol, ul {
   padding-inline-start: 20px;
 }
+
+.footnote {
+  font-size: 0.7em;
+  line-height: 1.2em;
+}
 /* ----- end global ----- */
 
 /* ----- start header ----- */
