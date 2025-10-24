@@ -10,6 +10,7 @@
     <link rel="manifest" href="./site.webmanifest" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/contact.js"></script>
   </head>
   <body>
     <nav>
@@ -52,8 +53,36 @@
         </p>
         <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
       </section>
-      <section>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc00LZnfFaLPeemVyV_cuFcODIReI03_3FawSolOBnWriCf3A/viewform?embedded=true" height="742" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <section class="contact-form-section">
+        <form
+          id="contactForm"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
+          <fieldset>
+            <legend>Contact Us<span lang="zh-Hant">聯絡我們</span></legend>
+            
+            <div>
+              <label for="name">Name <span lang="zh-Hant">姓名</span>:</label><br />
+              <input name="name" type="text" autocomplete="name" required />
+            </div>
+            
+            <div>
+              <label for="email">Email <span lang="zh-Hant">電郵</span>:</label><br />
+              <input name="email" type="email" autocomplete="email" required />
+            </div>
+            
+            <div>
+              <label for="message">Message <span lang="zh-Hant">查詢內容</span>:</label><br />
+              <textarea name="message" rows="3" required></textarea>
+            </div>
+
+            <div>
+              <button type="submit">Send <span lang="zh-Hant">傳送</span></button>
+            </div>
+
+            <div class="form-submit-status"></div>
+          </fieldset>
+        </form>
       </section>
     </main>
     <footer>

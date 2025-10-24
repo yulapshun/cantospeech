@@ -56,10 +56,11 @@ h1, h2 {
   display: none;
 }
 
-.button-link {
+.button-link, button {
   display: inline-block;
   height: 40px;
   line-height: 40px;
+  border: none;
   border-radius: 20px;
   padding-inline: 20px;
   background-color: var(--main-color);
@@ -68,7 +69,7 @@ h1, h2 {
   font-weight: bold;
 }
 
-.button-link:hover {
+.button-link:hover, button:hover {
   background-color: var(--main-color-light);
 }
 
@@ -246,6 +247,30 @@ footer {
   max-width: 350px;
 }
 /* ----- end home page  ----- */
+
+/* ----- start contact page  ----- */
+.contact-form-section form > fieldset > div {
+  margin-block: 1em;
+}
+
+.contact-form-section form input {
+  width: 50%;
+}
+
+.contact-form-section form textarea {
+  width: 100%;
+  field-sizing: content;
+  resize: none;
+}
+
+.contact-form-section .form-submit-status {
+  font-size: 0.8em;
+}
+
+.contact-form-section .form-submit-status.error {
+  color: FireBrick;
+}
+/* ----- end contact page  ----- */
 
 @media (min-width: 576px) {
   .poster-container {
