@@ -249,6 +249,10 @@ footer {
 /* ----- end home page  ----- */
 
 /* ----- start contact page  ----- */
+.contact-form-section form > fieldset {
+  border: none;
+}
+
 .contact-form-section form > fieldset > div {
   margin-block: 1em;
 }
