@@ -10,7 +10,8 @@ from html.parser import HTMLParser
 COMPONENT_ROOT = os.path.join(os.path.dirname(__file__), '../src/components')
 FILE_LIST = [
     os.path.join(os.path.dirname(__file__), '../docs/' + file) for file in
-    [ 'index.html', 'about.html', 'services.html', 'resources.html', 'contact.html']]
+    [ 'index.html', 'about.html', 'speech_therapy.html', 'cantonese.html', 'resources.html',
+      'contact.html']]
 
 class OutOfDirectoryError(Exception):
     """This Error is raised when the source html file tries to include something outside of the
