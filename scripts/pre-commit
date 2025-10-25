@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 
 make
-git add build/
+git add docs/

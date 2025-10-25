@@ -110,6 +110,10 @@ nav a:hover {
   color: var(--text-color-hover);
 }
 
+nav a:hover line {
+  stroke: var(--text-color-hover);
+}
+
 nav .logo-link {
   display: contents;
 }
@@ -159,6 +163,11 @@ nav .header-menu {
   background-color: var(--bg-3);
 }
 
+nav .header-menu li {
+  list-style: none;
+  text-wrap: nowrap;
+}
+
 nav .header-menu.show {
   display: block;
 }
@@ -178,9 +187,24 @@ nav .header-menu > ul {
   padding-inline-end: calc(4 * var(--default-margin));
 }
 
-nav .header-menu > ul > li {
-  list-style: none;
-  text-wrap: nowrap;
+nav .header-menu .submenu .submenu-icon {
+  vertical-align: middle;
+}
+
+nav .header-menu > ul > li.submenu > ul {
+  display: none;
+}
+
+nav .header-menu > ul > li.submenu > ul > li {
+  padding-block: calc(var(--default-margin) / 2);
+}
+
+nav .header-menu > ul > li.submenu.show > ul {
+  display: block;
+}
+
+nav .header-menu > ul > li.submenu.show .submenu-icon {
+  transform: rotate(180deg);
 }
 /* ----- end header ----- */
 
@@ -325,6 +349,22 @@ footer {
     column-gap: 1em;
     margin-block: auto;
     padding-inline-end: var(--default-margin);
+  }
+
+  nav .header-menu > ul > li.submenu {
+    position: relative;
+  }
+
+  nav .header-menu > ul > li.submenu > ul {
+    position: absolute;
+    min-width: 100%;
+    padding: 0;
+    background-color: var(--bg-3);
+  }
+
+  nav .header-menu > ul > li.submenu > ul > li {
+    padding-inline: var(--default-margin);
+    padding-block: calc(var(--default-margin) / 2);
   }
 
   main {

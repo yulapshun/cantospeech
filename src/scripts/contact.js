@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function() {
   const form =  document.querySelector('#contactForm');
   const formStatusContainer = document.querySelector('.form-submit-status');
 
@@ -19,4 +19,4 @@ window.onload = function() {
       formStatusContainer.innerHTML = 'Thank you for your message! We will get back to you soon.';
     })
   });
-}
+});
