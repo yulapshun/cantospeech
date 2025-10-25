@@ -1,6 +1,4 @@
 #!/usr/bin/sh
 
-if [ `git rev-parse --abbrev-ref HEAD` == "main" ]; then
-    make
-    git add build/
-fi
+make
+git add build/
