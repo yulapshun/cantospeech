@@ -40,6 +40,7 @@ class TestHTMLParser():
         <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
       </ul>
     </nav>
+    
     <main>
       Main Content
     </main>
@@ -73,12 +74,14 @@ class TestHTMLParser():
         <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
       </ul>
     </nav>
+    
     <main>
       Main Content
     </main>
     <footer>
       © 2199 Test. All Rights Reserved
     </footer>
+    
   </body>
 </html>"""
 
@@ -99,12 +102,13 @@ class TestHTMLParser():
     <title>Title</title>
   </head>
   <body><nav>
-      <ul>
-        <li><a href="/about.html">About <span lang="zh-Hant">關於</span></a></li>
-        <li><a href="/resources.html">Resources <span lang="zh-Hant">資源</span></a></li>
-        <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
-      </ul>
-    </nav><main>
+          <ul>
+            <li><a href="/about.html">About <span lang="zh-Hant">關於</span></a></li>
+            <li><a href="/resources.html">Resources <span lang="zh-Hant">資源</span></a></li>
+            <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
+          </ul>
+        </nav>
+        <main>
       Main Content
     </main>
   </body>

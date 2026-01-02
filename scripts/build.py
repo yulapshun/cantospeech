@@ -38,33 +38,39 @@ class CSHTMLParser(HTMLParser):
         self.component_tuples = []
 
     def handle_pi(self, data) -> None:
-        target, *content = data.split(' ')
+        target, *content = re.split(r'\s+', data.strip())
 
         if target == 'cs-component':
             attr, value = content[0].split('=')
 
             if attr == 'include':
                 component = value.strip('"')
-                file = os.path.join(self.COMPONENT_ROOT, component)
                 line, offset = self.getpos()
-
-                # Check if trying to include something outside of the component directory
-                if not os.path.samefile(self.COMPONENT_ROOT, os.path.dirname(file)):
-                    raise OutOfDirectoryError
-
-                with open(file, 'r', encoding='utf-8') as f:
-                    s = f.read()
-                    self.component_tuples.append(
-                        (line, re.sub("(^.)", ' ' * offset + r'\g<1>', s, flags=re.MULTILINE)))
+                # length +3 to account for the 3 characters of the PI tag
+                self.component_tuples.append((line - 1, offset, len(data) + 3, component))
 
     def render(self, data) -> str:
         """Accept the raw template file data as a string and return the final rendered HTML as a string"""
         self.feed(data)
-        data_split = data.split('\n')
-        for component_tuple in self.component_tuples:
-            target_line, component = component_tuple
-            data_split[target_line - 1] = component.strip('\n')
-        return '\n'.join(data_split)
+        data_split = [list(line) for line in data.split('\n')]
+        for component_tuple in reversed(self.component_tuples):
+            line, offset, length, component = component_tuple
+            file = os.path.join(self.COMPONENT_ROOT, component)
+
+            # Check if trying to include something outside of the component directory
+            if not os.path.samefile(self.COMPONENT_ROOT, os.path.dirname(file)):
+                raise OutOfDirectoryError
+
+            with open(file, 'r', encoding='utf-8') as f:
+                s = f.read()
+                print(offset)
+                indented_component = '\n'.join(
+                    [line if i == 0 else ' ' * offset + line
+                     for i, line
+                     in enumerate(s.split('\n'))])
+                data_split[line][offset: offset + length] = indented_component
+
+        return '\n'.join([''.join(line) for line in data_split])
 
 def main():
     """Pass source html files to the parse and write the output to the same source files"""
@@ -78,6 +84,38 @@ def main():
 
         except Exception as e:
             print(f"Error processing file {file}: {e}")
+
+def test_include_header_same_line():
+    parser = CSHTMLParser(os.path.join(os.path.dirname(__file__), 'test/components'))
+    output = parser.render("""<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+  </head>
+  <body><?cs-component include="header.html"><main>
+      Main Content
+    </main>
+  </body>
+</html>""")
+    print(output)
+    assert output == """<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+  </head>
+  <body><nav>
+          <ul>
+            <li><a href="/about.html">About <span lang="zh-Hant">關於</span></a></li>
+            <li><a href="/resources.html">Resources <span lang="zh-Hant">資源</span></a></li>
+            <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
+          </ul>
+        </nav>
+        <main>
+      Main Content
+    </main>
+  </body>
+</html>"""
+
 
 if __name__ == '__main__':
     main()
