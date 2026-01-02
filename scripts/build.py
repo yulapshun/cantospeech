@@ -32,9 +32,10 @@ class CSHTMLParser(HTMLParser):
     required information to process the source file into a complete output file.
     """
 
-    def __init__(self, **kwargs) -> None:
+    def __init__(self, component_root, **kwargs) -> None:
         super().__init__(**kwargs)
-        self.component_list = []
+        self.COMPONENT_ROOT = component_root
+        self.component_tuples = []
 
     def handle_pi(self, data) -> None:
         target, *content = data.split(' ')
@@ -44,40 +45,37 @@ class CSHTMLParser(HTMLParser):
 
             if attr == 'include':
                 component = value.strip('"')
-                file = os.path.join(COMPONENT_ROOT, component)
+                file = os.path.join(self.COMPONENT_ROOT, component)
                 line, offset = self.getpos()
 
                 # Check if trying to include something outside of the component directory
-                if not os.path.samefile(COMPONENT_ROOT, os.path.dirname(file)):
+                if not os.path.samefile(self.COMPONENT_ROOT, os.path.dirname(file)):
                     raise OutOfDirectoryError
 
                 with open(file, 'r', encoding='utf-8') as f:
                     s = f.read()
-                    self.component_list.append(
+                    self.component_tuples.append(
                         (line, re.sub("(^.)", ' ' * offset + r'\g<1>', s, flags=re.MULTILINE)))
 
-    def feed_with_return(self, data) -> list:
-        """Accept a source html file as input string and return the information need to process that
-        file"""
+    def render(self, data) -> str:
+        """Accept the raw template file data as a string and return the final rendered HTML as a string"""
         self.feed(data)
-        return self.component_list
+        data_split = data.split('\n')
+        for component_tuple in self.component_tuples:
+            target_line, component = component_tuple
+            data_split[target_line - 1] = component.strip('\n')
+        return '\n'.join(data_split)
 
 def main():
     """Pass source html files to the parse and write the output to the same source files"""
     for file in FILE_LIST:
         try:
-            parser = CSHTMLParser()
-
+            parser = CSHTMLParser(COMPONENT_ROOT)
             with open(file, 'r', encoding='utf-8') as f:
                 data = f.read()
-                component_tuples = parser.feed_with_return(data)
-                data_split = data.split('\n')
-                for component_tuple in component_tuples:
-                    target_line, component = component_tuple
-                    data_split[target_line - 1] = component.strip('\n')
+                with open(file, 'w', encoding='utf-8') as f:
+                    f.write(parser.render(data))
 
-            with open(file, 'w', encoding='utf-8') as f:
-                f.write('\n'.join(data_split))
         except Exception as e:
             print(f"Error processing file {file}: {e}")
 
