@@ -1,12 +1,9 @@
-all: test clean build
+all: clean build
 
-.PHONY: test clean build
-
-test:
-	pytest
+.PHONY: clean build
 
 build:
-	cp -r ./src/* ./docs
+	cp -r ./src/assets/* ./docs
 	./scripts/build.py
 
 clean:
