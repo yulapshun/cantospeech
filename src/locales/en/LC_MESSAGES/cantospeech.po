@@ -10,6 +10,9 @@ msgstr "CantoSpeech"
 msgid "lang_code"
 msgstr "en"
 
+msgid "index_link"
+msgstr "en/"
+
 msgid "about_link"
 msgstr "/en/about.html"
 
@@ -30,6 +33,12 @@ msgstr "Click here"
 
 msgid "fill_form_text"
 msgstr "to fill in an online intake form today!"
+
+msgid "speech_therapy_poster_link"
+msgstr "/images/poster_speech_therapy_en.png"
+
+msgid "cantonese_poster_link"
+msgstr "/images/poster_cantonese_class_en.png"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"

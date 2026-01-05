@@ -10,6 +10,9 @@ msgstr "CantoSpeech"
 msgid "lang_code"
 msgstr "zh-Hant"
 
+msgid "index_link"
+msgstr "zh/"
+
 msgid "about_link"
 msgstr "/zh/about.html"
 
@@ -30,6 +33,12 @@ msgstr "按此"
 
 msgid "fill_form_text"
 msgstr "立即填寫線上諮詢表！"
+
+msgid "speech_therapy_poster_link"
+msgstr "/images/poster_speech_therapy_zh.png"
+
+msgid "cantonese_poster_link"
+msgstr "/images/poster_cantonese_class_zh.png"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"
