@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Language: zh-Hant\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# General ----------
+msgid "title"
+msgstr "CantoSpeech"
+
+msgid "lang_code"
+msgstr "zh-Hant"
+
+msgid "about_link"
+msgstr "/zh/about.html"
+
+msgid "speech_therapy_link"
+msgstr "/zh/speech_therapy.html"
+
+msgid "cantonese_link"
+msgstr "/zh/cantonese.html"
+
+msgid "resources_link"
+msgstr "/zh/resources.html"
+
+msgid "contact_link"
+msgstr "/zh/contact.html"
+
+msgid "click_here"
+msgstr "按此"
+
+msgid "fill_form_text"
+msgstr "立即填寫線上諮詢表！"
+
+# Header ----------
+msgid "cantospeech_logo_alt_text"
+msgstr "CantoSpeech Logo"
+
+msgid "toggle_menu_aria_label"
+msgstr "Toggle menu button"
+
+msgid "close_menu_button_aria_label"
+msgstr "Close menu button"
+
+msgid "about_text"
+msgstr "關於"
+
+msgid "services_text"
+msgstr "服務"
+
+msgid "speech_therapy_text"
+msgstr "言語評估和治療"
+
+msgid "cantonese_text"
+msgstr "線上廣東話課程"
+
+msgid "resources_text"
+msgstr "資源"
+
+msgid "contact_text"
+msgstr "聯絡我們"
+
+# Footer ----------
+msgid "cantospeech_copyright_text"
+msgstr "© 2025 CantoSpeech. All Rights Reserved"
+
+# index.html ----------
+msgid "index_header"
+msgstr "Grow With CantoSpeech 🌱"
+
+msgid "index_text"
+msgstr "無論你是正在建立溝通能力的孩子，還是正在探索廣東話的人，我都希望能陪伴你的學習旅程。讓我們一起玩、說話、成長。"
+
+msgid "speech_therapy_link_aria_label"
+msgstr "Link to speech therapy description"
+
+msgid "speech_therapy_poster_alt_text"
+msgstr "Speech therapy poster"
+
+msgid "cantonese_link_aria_label"
+msgstr "Link to cantonese class description"
+
+msgid "cantonese_poster_alt_text"
+msgstr"Cantonese class poster"
+
+# about.html ----------
+msgid "about_header"
+msgstr "關於"
+
+msgid "about_text_1"
+msgstr "Hello, 我叫Amanda。我曾於香港社福機構任言語治療師，現於加拿大以獨立言語治療師 (Speech-Language Pathologist (SLP, Reg. CASLPO) 形式執業，提供上門及視像言語治療服務（受監管服務)。"
+
+msgid "about_text_2"
+msgstr "同時，我亦提供線上廣東話課程（非受監管服務），適合所有有意學習廣東話的人士。"
+
+msgid "about_text_3"
+msgstr " "
+
+msgid "about_professional_registrations_header"
+msgstr "註冊資格"
+
+msgid "about_professional_registrations_1"
+msgstr "Registered Speech-Language Pathologist (College of Audiologists and Speech-Language Pathologists of Ontario)"
+
+msgid "about_professional_registrations_2"
+msgstr "香港言語治療師協會海外會員"
+
+msgid "about_qualifications_header"
+msgstr "資歷"
+
+msgid "about_qualifications_text_1"
+msgstr "文學士(主修語言學、副修翻譯）"
+
+msgid "about_qualifications_text_2"
+msgstr "教育言語及語言病理學暨學習障礙理學碩士"
+
+msgid "about_professional_training_header"
+msgstr "持續進修"
+
+msgid "about_professional_trainins_text_1"
+msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) -Introduction"
+
+msgid "about_professional_trainins_text_2"
+msgstr "Oral Placement Therapy (OPT)-Level 1"
+
+# contact.html ----------
+msgid "contact_header"
+msgstr "聯絡我們"
+
+msgid "contact_text_1"
+msgstr "如有任何問題或想了解更多資訊，歡迎透過以下電郵聯絡我們："
+
+msgid "contact_form_header"
+msgstr "聯絡我們"
+
+msgid "contact_form_label_1"
+msgstr "姓名："
+
+msgid "contact_form_label_2"
+msgstr "電郵："
+
+msgid "contact_form_label_3"
+msgstr "查詢內容："
+
+msgid "contact_form_send_button_text"
+msgstr "傳送"
+
+# speech_therapy.html ---------
+msgid "speech_therapy_header"
+msgstr "言語評估和治療"
+
+msgid "speech_therapy_assessment_header_1"
+msgstr "60分鐘評估"
+
+msgid "speech_therapy_assessment_header_2"
+msgstr "（包括10分鐘家長咨詢）"
+
+msgid "speech_therapy_assessment_text_1"
+msgstr "與孩子進行評估（包括：語言理解、語言表達、咬字發音、社交溝通及高階思考等等）"
+
+msgid "speech_therapy_assessment_text_2"
+msgstr "完成評估後，我會解釋評估結果，並與家長一同訂立治療方案"
+
+msgid "speech_therapy_assessment_text_3"
+msgstr "如有需要，可提供評估摘要及學習目標表"
+
+msgid "speech_therapy_session_header_1"
+msgstr "60分鐘治療課程與家長指導"
+
+msgid "speech_therapy_session_header_2"
+msgstr "（包括10分鐘家長咨詢）"
+
+msgid "speech_therapy_text_1"
+msgstr "評估及治療服務（受監管服務）以英語或廣東話進行 。我亦能以普通話跟家長溝通。可視像或上門。"
+
+msgid "speech_therapy_text_2"
+msgstr "若你對孩子的語言/溝通能力發展有疑問，歡迎聯絡我作10分鐘免費諮詢。"
+
+# cantonese.html ----------
+msgid "cantonese_header"
+msgstr "線上廣東話課程"
+
+msgid "cantonese_text_1"
+msgstr "45 或60分鐘課程（包括5分鐘家長咨詢）"
+
+msgid "cantonese_text_2"
+msgstr "一對一/小組教學"
+
+msgid "cantonese_text_3"
+msgstr "主題活動/遊戲、兒歌/歌曲、故事、日常對話等互動"
+
+msgid "cantonese_text_4"
+msgstr "課程以廣東話為主（可輔以英語及普通話）"
+
+msgid "cantonese_footnote"
+msgstr "*線上廣東話課程屬於非受監管服務，不涉及任何治療性評估或治療。此服務與言語治療服務分開，旨在為學習者提供廣東話教學，以作文化、學術或個人興趣之用途。"
