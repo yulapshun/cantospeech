@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ gettext("lang_code") }}">
   <head>
-    <title>CantoSpeech</title>
+    <title>{{ gettext("title") }}</title>
     {% include 'head_common.html' %}
-    <script src="./scripts/contact.js"></script>
+    <script src="/scripts/contact.js"></script>
   </head>
   <body>
     {% include 'header.html' %}
     <main>
-      <h1>Contact Us<br /><span lang="zh-Hant">聯絡我們</span></h1>
+      <h1>{{ gettext("contact_header") }}</h1>
       <section>
         <p>
-          If you have any questions or would like more information, please feel free to reach out via email:
-        </p>
-        <p lang="zh-Hant">
-          如有任何問題或想了解更多資訊，歡迎透過以下電郵聯絡我們：
+          {{ gettext("contact_text_1") }}
         </p>
         <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
       </section>
@@ -24,21 +21,21 @@
           method="POST"
           action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
           <fieldset>
-            <legend>Contact Us <span lang="zh-Hant">聯絡我們</span></legend>
+            <legend>{{ gettext("contact_form_header") }}</legend>
             <div>
-              <label for="name">Name <span lang="zh-Hant">姓名</span>:</label><br />
+              <label for="name">{{ gettext("contact_form_label_1") }}</label><br />
               <input name="name" type="text" autocomplete="name" required />
             </div>
             <div>
-              <label for="email">Email <span lang="zh-Hant">電郵</span>:</label><br />
+              <label for="email">{{ gettext("contact_form_label_2") }}</label><br />
               <input name="email" type="email" autocomplete="email" required />
             </div>
             <div>
-              <label for="message">Message <span lang="zh-Hant">查詢內容</span>:</label><br />
+              <label for="message">{{ gettext("contact_form_label_3") }}</label><br />
               <textarea name="message" rows="3" required></textarea>
             </div>
             <div>
-              <button type="submit">Send <span lang="zh-Hant">傳送</span></button>
+              <button type="submit">{{ gettext("contact_form_send_button_text") }}</button>
             </div>
             <div class="form-submit-status"></div>
           </fieldset>

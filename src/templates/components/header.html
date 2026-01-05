@@ -1,10 +1,10 @@
 <nav>
   <div class="nav-container">
     <a href="/index.html" class="logo-link">
-      <img src="/images/logo_horizontal.svg" alt="CantoSpeech Logo"
+      <img src="/images/logo_horizontal.svg" alt="{{ gettext("cantospeech_logo_alt_text") }}"
         loading="eager" decoding="sync" fetchpriority="high" />
     </a>
-    <button class="menu-toggle" aria-label="Toggle menu button">
+    <button class="menu-toggle" aria-label="{{ gettext("toggle_menu_aria_label") }}">
       <svg width="30" height="30" stroke-width="2" class="menu-toggle-icon" aria-hidden="true">
         <line x1="3" y1="8" x2="27" y2="8"  />
         <line x1="3" y1="15" x2="27" y2="15" />
@@ -13,29 +13,29 @@
     </button>
     <div class="menu-overlay" aria-hidden="true"></div>
     <div class="header-menu">
-      <button class="menu-close" aria-role="Close menu button">
+      <button class="menu-close" aria-role="{{ gettext("close_menu_button_aria_label") }}">
         <svg width="30" height="30" stroke-width="2" class="menu-close-icon" aria-hidden="true">
           <line x1="5" y1="5" x2="25" y2="25" />
           <line x1="5" y1="25" x2="25" y2="5" />
         </svg>
       </button>
       <ul>
-        <li><a href="/about.html">About <span lang="zh-Hant">關於</span></a></li>
+        <li><a href="{{ gettext("about_link") }}">{{ gettext("about_text") }}</a></li>
         <li class="submenu">
           <a href="">
-            Services <span lang="zh-Hant">服務</span>
+            {{ gettext("services_text") }}
             <svg width="20" height="20" stroke-width="2" class="submenu-icon" aria-hidden="true">
               <line x1="3" y1="7" x2="10" y2="13" />
               <line x1="10" y1="13" x2="17" y2="7" />
             </svg>
           </a>
           <ul>
-            <li><a href="/speech_therapy.html">Speech Therapy Services <span lang="zh-Hant">言語評估和治療</span></a></li>
-            <li><a href="/cantonese.html">Online Cantonese Class <span lang="zh-Hant">線上廣東話課程</span></a></li>
+            <li><a href="{{ gettext("speech_therapy_link") }}">{{ gettext("speech_therapy_text") }}</a></li>
+            <li><a href="{{ gettext("cantonese_link") }}">{{ gettext("cantonese_text") }}</a></li>
           </ul>
         </li>
-        <!-- <li><a href="/resources.html">Resources <span lang="zh-Hant">資源</span></a></li> -->
-        <li><a href="/contact.html">Contact <span lang="zh-Hant">聯絡我們</span></a></li>
+        <!-- <li><a href="{{ gettext("resources_link") }}">{{ gettext("resouces_text") }}</a></li> -->
+        <li><a href="{{ gettext("contact_link") }}">{{ gettext("contact_text") }}</a></li>
       </ul>
     </div>
   </div>

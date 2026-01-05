@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CantoSpeech</title>
-    {% include 'head_common.html' %}
+    <title{{ gettext("title") }}</title>
+    {% include "head_common.html" %}
   </head>
   <body>
-    {% include 'header.html' %}
+    {% include "header.html" %}
     <main>
-      <h1>Grow With CantoSpeech 🌱</h1>
+      <h1>{{ gettext("index_header") }}</h1>
       <section>
         <p>
-          At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication
-          skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play,
-          talk, and grow.
-        </p>
-      </section>
-      <section>
-        <p lang="zh-Hant">
-          無論你是正在建立溝通能力的孩子，還是正在探索廣東話的人，我都希望能陪伴你的學習旅程。讓我們一起玩、說話、成長。
+          {{ gettext("index_text") }}
         </p>
       </section>
       <section class="poster-container">
-        <a href="/speech_therapy.html" aria-label="Link to speech therapy description">
-          <img src="/images/poster_speech_therapy.png" alt="Speech therapy poster" loading="lazy" />
+        <a href="/speech_therapy.html" aria-label="{{ gettext("speech_therapy_link_aria_label") }}">
+          <img src="/images/poster_speech_therapy.png" alt={{ gettext("speech_therapy_poster_alt_text") }} loading="lazy" />
         </a>
-        <a href="/cantonese.html" aria-label="Link to cantonese class description">
-          <img src="/images/poster_cantonese_class.png" alt="Cantonese class poster" loading="lazy" />
+        <a href="/cantonese.html" aria-label={{ gettext("cantonese_link_aria_label") }}>
+          <img src="/images/poster_cantonese_class.png" alt={{ gettext("cantonese_poster_alt_text") }} loading="lazy" />
         </a>
       </section>
     </main>
-    {% include 'footer.html' %}
+    {% include "footer.html" %}
   </body>
 </html>
