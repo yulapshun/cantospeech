@@ -11,7 +11,7 @@ msgid "lang_code"
 msgstr "zh-Hant"
 
 msgid "index_link"
-msgstr "zh/"
+msgstr "/zh/"
 
 msgid "about_link"
 msgstr "/zh/about.html"

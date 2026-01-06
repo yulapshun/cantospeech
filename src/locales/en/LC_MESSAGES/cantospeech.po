@@ -11,7 +11,7 @@ msgid "lang_code"
 msgstr "en"
 
 msgid "index_link"
-msgstr "en/"
+msgstr "/en/"
 
 msgid "about_link"
 msgstr "/en/about.html"
