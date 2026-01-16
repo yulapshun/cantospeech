@@ -1,4 +1,5 @@
 #!/usr/bin/sh
 
 make
+git add src/locales
 git add docs/
