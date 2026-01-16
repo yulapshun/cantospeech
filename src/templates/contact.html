@@ -6,7 +6,9 @@
     <script src="/scripts/contact.js"></script>
   </head>
   <body>
-    {% include 'header.html' %}
+    {% with current_page="contact.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
     <main>
       <h1>{{ gettext("contact_header") }}</h1>
       <section>

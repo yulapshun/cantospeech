@@ -5,7 +5,9 @@
     {% include 'head_common.html' %}
   </head>
   <body>
-    {% include 'header.html' %}
+    {% with current_page="cantonese.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
     <main>
       <h1>{{ gettext("cantonese_header") }}</h1>
       <section>

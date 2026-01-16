@@ -1,3 +1,6 @@
+{% if current_page is not defined %}
+  {% set current_page = "" %}    
+{% endif %}
 <nav>
   <div class="nav-container">
     <a href="{{ gettext("index_link") }}" class="logo-link">
@@ -36,6 +39,19 @@
         </li>
         <!-- <li><a href="{{ gettext("resources_link") }}">{{ gettext("resouces_text") }}</a></li> -->
         <li><a href="{{ gettext("contact_link") }}">{{ gettext("contact_text") }}</a></li>
+        <li class="submenu">
+          <a href="">
+            {{ gettext("languages") }}
+            <svg width="20" height="20" stroke-width="2" class="submenu-icon" aria-hidden="true">
+              <line x1="3" y1="7" x2="10" y2="13" />
+              <line x1="10" y1="13" x2="17" y2="7" />
+            </svg>
+          </a>
+          <ul>
+            <li><a href="/en/{{ current_page }} ">English</a></li>
+            <li><a href="/zh/{{ current_page }}">中文</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>

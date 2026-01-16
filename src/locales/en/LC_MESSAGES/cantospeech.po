@@ -68,6 +68,9 @@ msgstr "Resources"
 msgid "contact_text"
 msgstr "Contact"
 
+msgid "languages"
+msgstr "Languages"
+
 # Footer ----------
 msgid "cantospeech_copyright_text"
 msgstr "© 2025 CantoSpeech. All Rights Reserved"

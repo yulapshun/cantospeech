@@ -5,7 +5,9 @@
     {% include 'head_common.html' %}
   </head>
   <body>
-    {% include 'header.html' %}
+    {% with current_page="resources.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
     {% include 'footer.html' %}
   </body>
 </html>
