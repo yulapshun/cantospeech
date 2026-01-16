@@ -73,7 +73,7 @@ msgstr "語言"
 
 # Footer ----------
 msgid "cantospeech_copyright_text"
-msgstr "© 2025 CantoSpeech. All Rights Reserved"
+msgstr "© 2026 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
