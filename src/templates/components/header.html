@@ -1,0 +1,58 @@
+{% if current_page is not defined %}
+  {% set current_page = "" %}    
+{% endif %}
+<nav>
+  <div class="nav-container">
+    <a href="{{ gettext("index_link") }}" class="logo-link">
+      <img src="/images/logo_horizontal.svg" alt="{{ gettext("cantospeech_logo_alt_text") }}"
+        loading="eager" decoding="sync" fetchpriority="high" />
+    </a>
+    <button class="menu-toggle" aria-label="{{ gettext("toggle_menu_aria_label") }}">
+      <svg width="30" height="30" stroke-width="2" class="menu-toggle-icon" aria-hidden="true">
+        <line x1="3" y1="8" x2="27" y2="8"  />
+        <line x1="3" y1="15" x2="27" y2="15" />
+        <line x1="3" y1="22" x2="27" y2="22" />
+      </svg>
+    </button>
+    <div class="menu-overlay" aria-hidden="true"></div>
+    <div class="header-menu">
+      <button class="menu-close" aria-role="{{ gettext("close_menu_button_aria_label") }}">
+        <svg width="30" height="30" stroke-width="2" class="menu-close-icon" aria-hidden="true">
+          <line x1="5" y1="5" x2="25" y2="25" />
+          <line x1="5" y1="25" x2="25" y2="5" />
+        </svg>
+      </button>
+      <ul>
+        <li><a href="{{ gettext("about_link") }}">{{ gettext("about_text") }}</a></li>
+        <li class="submenu">
+          <a href="">
+            {{ gettext("services_text") }}
+            <svg width="20" height="20" stroke-width="2" class="submenu-icon" aria-hidden="true">
+              <line x1="3" y1="7" x2="10" y2="13" />
+              <line x1="10" y1="13" x2="17" y2="7" />
+            </svg>
+          </a>
+          <ul>
+            <li><a href="{{ gettext("speech_therapy_link") }}">{{ gettext("speech_therapy_text") }}</a></li>
+            <li><a href="{{ gettext("cantonese_link") }}">{{ gettext("cantonese_text") }}</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="{{ gettext("resources_link") }}">{{ gettext("resouces_text") }}</a></li> -->
+        <li><a href="{{ gettext("contact_link") }}">{{ gettext("contact_text") }}</a></li>
+        <li class="submenu">
+          <a href="">
+            {{ gettext("languages") }}
+            <svg width="20" height="20" stroke-width="2" class="submenu-icon" aria-hidden="true">
+              <line x1="3" y1="7" x2="10" y2="13" />
+              <line x1="10" y1="13" x2="17" y2="7" />
+            </svg>
+          </a>
+          <ul>
+            <li><a href="/en/{{ current_page }} ">English</a></li>
+            <li><a href="/zh/{{ current_page }}">中文</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

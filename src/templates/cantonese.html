@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body>
+    {% with current_page="cantonese.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>{{ gettext("cantonese_header") }}</h1>
+      <section>
+        <div class="top">
+          <img src="{{ gettext("cantonese_poster_link") }}" alt="Cantonese class poster" loading="lazy" />
+          <div>
+            <ul>
+              <li>
+                {{ gettext("cantonese_text_1") }}
+              </li>
+              <li>
+                {{ gettext("cantonese_text_2") }}
+              </li>
+              <li>
+                {{ gettext("cantonese_text_3") }}
+              </li>
+              <li>
+                {{ gettext("cantonese_text_4") }}
+              </li>
+            </ul>
+            <b class="desktop-only"><a class="button-link" href="https://forms.gle/yxB4jq5rDB6FMMKh8">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
+          </div>
+        </div>
+        <p class="footnote">
+          {{ gettext("cantonese_footnote") }}
+        </p>
+        <b class="mobile-only"><a class="button-link" href="https://forms.gle/yxB4jq5rDB6FMMKh8">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
+      </section>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>

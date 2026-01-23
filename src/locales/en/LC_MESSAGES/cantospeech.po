@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# General ----------
+msgid "title"
+msgstr "CantoSpeech"
+
+msgid "lang_code"
+msgstr "en"
+
+msgid "index_link"
+msgstr "/en/"
+
+msgid "about_link"
+msgstr "/en/about.html"
+
+msgid "speech_therapy_link"
+msgstr "/en/speech_therapy.html"
+
+msgid "cantonese_link"
+msgstr "/en/cantonese.html"
+
+msgid "resources_link"
+msgstr "/en/resources.html"
+
+msgid "contact_link"
+msgstr "/en/contact.html"
+
+msgid "click_here"
+msgstr "Click here"
+
+msgid "fill_form_text"
+msgstr "to fill in an online intake form today!"
+
+msgid "speech_therapy_poster_link"
+msgstr "/images/poster_speech_therapy_en.png"
+
+msgid "cantonese_poster_link"
+msgstr "/images/poster_cantonese_class_en.png"
+
+# Header ----------
+msgid "cantospeech_logo_alt_text"
+msgstr "CantoSpeech Logo"
+
+msgid "toggle_menu_aria_label"
+msgstr "Toggle menu button"
+
+msgid "close_menu_button_aria_label"
+msgstr "Close menu button"
+
+msgid "about_text"
+msgstr "About"
+
+msgid "services_text"
+msgstr "Services"
+
+msgid "speech_therapy_text"
+msgstr "Speech Therapy Services"
+
+msgid "cantonese_text"
+msgstr "Online Cantonese Class"
+
+msgid "resources_text"
+msgstr "Resources"
+
+msgid "contact_text"
+msgstr "Contact"
+
+msgid "languages"
+msgstr "Languages"
+
+# Footer ----------
+msgid "cantospeech_copyright_text"
+msgstr "© 2025 CantoSpeech. All Rights Reserved"
+
+# index.html ----------
+msgid "index_header"
+msgstr "Grow With CantoSpeech 🌱"
+
+msgid "index_text"
+msgstr "At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
+
+msgid "speech_therapy_link_aria_label"
+msgstr "Link to speech therapy description"
+
+msgid "speech_therapy_poster_alt_text"
+msgstr "Speech therapy poster"
+
+msgid "cantonese_link_aria_label"
+msgstr "Link to cantonese class description"
+
+msgid "cantonese_poster_alt_text"
+msgstr"Cantonese class poster"
+
+# about.html ----------
+msgid "about_header"
+msgstr "About"
+
+msgid "about_text_1"
+msgstr "I’m Amanda, a registered Speech-Language Pathologist with the College of Audiologists and Speech-Language Pathologists of Ontario (CASLPO). I have experience supporting children with language disorders, speech sound difficulties, learning challenges, and Autism Spectrum Disorder."
+
+msgid "about_text_2"
+msgstr "I provide speech and language services (regulated service) to children and their families, both in-home and online."
+
+msgid "about_text_3"
+msgstr "I also offer personalized online Cantonese lessons (non-regulated service) for learners of all ages, helping them build confidence, enjoy the language, and grow at their own pace."
+
+msgid "about_professional_registrations_header"
+msgstr "Professional Registrations"
+
+msgid "about_professional_registrations_1"
+msgstr "Registered Speech-Language Pathologist (College of Audiologists and Speech-Language Pathologists of Ontario)"
+
+msgid "about_professional_registrations_2"
+msgstr "Overseas Member of the Hong Kong Association of Speech Therapists"
+
+msgid "about_qualifications_header"
+msgstr "Qualifications"
+
+msgid "about_qualifications_text_1"
+msgstr "Bachelor of Arts (Major in Linguistics and Minor in Translation)"
+
+msgid "about_qualifications_text_2"
+msgstr "Master of Science in Educational Speech-Language Pathology and Learning Disabilities"
+
+msgid "about_professional_training_header"
+msgstr "Professional Training"
+
+msgid "about_professional_trainins_text_1"
+msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) -Introduction"
+
+msgid "about_professional_trainins_text_2"
+msgstr "Oral Placement Therapy (OPT)-Level 1"
+
+# contact.html ----------
+msgid "contact_header"
+msgstr "Contact Us"
+
+msgid "contact_text_1"
+msgstr "If you have any questions or would like more information, please feel free to reach out via email:"
+
+msgid "contact_form_header"
+msgstr "Contact Us:"
+
+msgid "contact_form_label_1"
+msgstr "Name:"
+
+msgid "contact_form_label_2"
+msgstr "Email:"
+
+msgid "contact_form_label_3"
+msgstr "Message:"
+
+msgid "contact_form_send_button_text"
+msgstr "Send"
+
+# speech_therapy.html ---------
+msgid "speech_therapy_header"
+msgstr "Speech Therapy Services"
+
+msgid "speech_therapy_assessment_header_1"
+msgstr "60-minute assessment session"
+
+msgid "speech_therapy_assessment_header_2"
+msgstr "(includes a 10-minute debrief)"
+
+msgid "speech_therapy_assessment_text_1"
+msgstr "To conduct an assessment for language comprehension, expressive language, speech sounds, social communication, and higher-order thinking"
+
+msgid "speech_therapy_assessment_text_2"
+msgstr "To review the assessment results and provide tailored recommendations"
+
+msgid "speech_therapy_assessment_text_3"
+msgstr "Assessment summary and goals sheet can be included upon request"
+
+msgid "speech_therapy_session_header_1"
+msgstr "60-minute therapy sessions and parent coaching"
+
+msgid "speech_therapy_session_header_2"
+msgstr "(includes a 10-minute debrief)"
+
+msgid "speech_therapy_text_1"
+msgstr "Speech Therapy Services (regulated service) are available in English and Cantonese. I can also communicate with parents through Mandarin. Sessions are available online or via home visits."
+
+msgid "speech_therapy_text_2"
+msgstr "If you have concerns about your child’s language and communication development, you are welcome to contact me for a free 10-minute initial consultation."
+
+# cantonese.html ----------
+msgid "cantonese_header"
+msgstr "Online Cantonese Class"
+
+msgid "cantonese_text_1"
+msgstr "45-minute or 60-minute lessons (includes a 5-minute debrief)"
+
+msgid "cantonese_text_2"
+msgstr "1:1/small group setting"
+
+msgid "cantonese_text_3"
+msgstr "Theme-based activities/games,songs, stories, functional speech, and more"
+
+msgid "cantonese_text_4"
+msgstr "Services are available in Cantonese (supplement in English and Mandarin)"
+
+msgid "cantonese_footnote"
+msgstr "*Online Cantonese class is a non-regulated service. It does not involve any therapeutic assessment or treatment. This service is separate from speech-language services and is intended for learners of Cantonese for cultural, academic, or personal enrichment."

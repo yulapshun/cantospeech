@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body>
+    {% with current_page="/speech_therapy.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>{{ gettext("speech_therapy_header") }}</h1>
+      <section>
+        <div class="top">
+          <img src="{{ gettext("speech_therapy_poster_link") }}" alt="Speech therapy poster" loading="lazy"  />
+          <div>
+            <ol>
+              <li>
+                <p>
+                  <b>{{ gettext("speech_therapy_assessment_header_1") }}</b> {{ gettext("speech_therapy_assessment_header_2") }}
+                </p>
+                <ul>
+                  <li>
+                    {{ gettext("speech_therapy_assessment_text_1") }}
+                  </li>
+                  <li>
+                    {{ gettext("speech_therapy_assessment_text_2") }}
+                  </li>
+                  <li>
+                    {{ gettext("speech_therapy_assessment_text_3") }}
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p>
+                  <b>{{ gettext("speech_therapy_session_header_1") }}</b> {{ gettext("speech_therapy_session_header_2") }}
+                </p>
+              </li>
+            </ol>
+            <b class="desktop-only"><a class="button-link" href="https://forms.gle/L2vvTgKtjAzdy95cA">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
+          </div>
+        </div>
+        <p>
+          {{ gettext("speech_therapy_text_1") }}
+        </p>
+        <p>
+          {{ gettext("speech_therapy_text_2") }}
+        </p>
+        <p class="mobile-only">
+          <b><a class="button-link" href="https://forms.gle/L2vvTgKtjAzdy95cA">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
+        </p>
+      </section>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>

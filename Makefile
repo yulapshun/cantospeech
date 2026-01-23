@@ -1,10 +1,11 @@
 all: clean build
 
-.PHONY: build
-build:
-	cp -r ./src/* ./docs
-	./scripts/build.py
+.PHONY: clean build
 
-.PHONY: clean
+build:
+	find . -name \*.po -execdir msgfmt cantospeech.po -o cantospeech.mo \;
+	./scripts/build.py
+	cp -r ./src/assets/* ./docs
+
 clean:
 	rm -rf ./docs/*

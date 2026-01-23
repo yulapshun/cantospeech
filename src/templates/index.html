@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include "head_common.html" %}
+  </head>
+  <body>
+    {% with current_page="" %}
+      {% include "header.html" %}
+    {% endwith %}
+    <main>
+      <h1>{{ gettext("index_header") }}</h1>
+      <section>
+        <p>
+          {{ gettext("index_text") }}
+        </p>
+      </section>
+      <section class="poster-container">
+        <a href="{{ gettext("speech_therapy_link") }}" aria-label="{{ gettext("speech_therapy_link_aria_label") }}">
+          <img src="{{ gettext("speech_therapy_poster_link") }}" alt={{ gettext("speech_therapy_poster_alt_text") }} loading="lazy" />
+        </a>
+        <a href="{{ gettext("cantonese_link") }}" aria-label={{ gettext("cantonese_link_aria_label") }}>
+          <img src="{{ gettext("cantonese_poster_link") }}" alt={{ gettext("cantonese_poster_alt_text") }} loading="lazy" />
+        </a>
+      </section>
+    </main>
+    {% include "footer.html" %}
+  </body>
+</html>

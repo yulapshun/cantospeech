@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+    <script src="/scripts/contact.js"></script>
+  </head>
+  <body>
+    {% with current_page="contact.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>{{ gettext("contact_header") }}</h1>
+      <section>
+        <p>
+          {{ gettext("contact_text_1") }}
+        </p>
+        <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
+      </section>
+      <section class="contact-form-section">
+        <form
+          id="contactForm"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
+          <fieldset>
+            <legend>{{ gettext("contact_form_header") }}</legend>
+            <div>
+              <label for="name">{{ gettext("contact_form_label_1") }}</label><br />
+              <input name="name" type="text" autocomplete="name" required />
+            </div>
+            <div>
+              <label for="email">{{ gettext("contact_form_label_2") }}</label><br />
+              <input name="email" type="email" autocomplete="email" required />
+            </div>
+            <div>
+              <label for="message">{{ gettext("contact_form_label_3") }}</label><br />
+              <textarea name="message" rows="3" required></textarea>
+            </div>
+            <div>
+              <button type="submit">{{ gettext("contact_form_send_button_text") }}</button>
+            </div>
+            <div class="form-submit-status"></div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>
