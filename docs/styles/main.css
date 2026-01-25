@@ -9,20 +9,10 @@
     --text-color: oklch(0.108 0.031 313.8);
     --text-color-hover: oklch(0.509 0.030 313.8);
 
-    --color-1: oklch(0.426 0.194 304.8);
-    --color-2: oklch(0.492 0.223 304.8);
-    --color-3: oklch(0.557 0.253 304.8);
-    --color-4: oklch(0.623 0.224 304.8);
-    --color-5: oklch(0.688 0.180 304.8);
-    --color-6: oklch(0.754 0.138 304.8);
-    --main-color: oklch(0.819 0.099 304.8);
-    --main-color-light: oklch(0.849 0.069 304.8);
-    --bg-3: oklch(0.885 0.061 304.8);
-    --bg-2: oklch(0.950 0.026 304.8);
-    --bg-1: oklch(0.980 0.004 301.4);
-
-    --secondary-color: oklch(0.712 0.133 248.3);
-    --secondary-color-light: oklch(0.742 0.113 248.3);
+    /* --main-color: oklch(0.819 0.099 304.8); */
+    /* --main-color-light: oklch(0.849 0.069 304.8); */
+    --main-color: #b174e7;
+    --main-color-light: #bd98e3
   }
 }
 
@@ -41,11 +31,11 @@ body {
   margin: 0;
   flex-direction: column;
   align-items: center;
-  background-color: var(--bg-2);
 }
 
 h1, h2 {
   line-height: 1.3em;
+  color: var(--main-color);
 }
 
 .mobile-only {
@@ -86,10 +76,9 @@ ol, ul {
 /* ----- start header ----- */
 nav {
   position: sticky;
-  top: 0;
+  top: 0.8em;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--bg-3);
 }
 
 nav .nav-container {
@@ -121,6 +110,7 @@ nav .logo-link {
 nav .logo-link > img {
   height: 100%;
   min-width: 0px;
+  padding-inline-start: var(--default-margin);
   padding-inline-end: calc(30px + 2 * var(--default-margin));
 }
 
@@ -161,7 +151,6 @@ nav .header-menu {
   right: 0;
   bottom: 0;
   display: none;
-  background-color: var(--bg-3);
 }
 
 nav .header-menu li {
@@ -221,9 +210,6 @@ main {
 
 main > section {
   margin-block-start: var(--default-margin);
-  padding: var(--default-margin);
-  background-color:var(--bg-1);
-  border-radius: 10px;
 }
 
 main > section .top {
@@ -250,7 +236,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:var(--bg-3);
   font-size: .7em;
 }
 
@@ -360,7 +345,6 @@ footer {
     position: absolute;
     min-width: 100%;
     padding: 0;
-    background-color: var(--bg-3);
   }
 
   nav .header-menu > ul > li.submenu > ul > li {
@@ -373,7 +357,7 @@ footer {
   }
 
   main > section {
-    padding: calc(2 * var(--default-margin));
+    padding-block-start: calc(2 * var(--default-margin));
   }
 
   main > section .top {
