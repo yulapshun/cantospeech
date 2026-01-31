@@ -3,6 +3,8 @@
   --default-margin: 16px;
   --header-height: calc(50px + 2 * var(--default-margin));
 
+  --background-color: #fff;
+
   --text-color: #07020b;
   --text-color-hover: #6c6172;
   --text-color-light: #fff;
@@ -21,6 +23,7 @@ html {
   color: var(--text-color);
   line-height: 1.8em;
   scroll-padding-top: var(--header-height);
+  background-color: var(--background-color);
 }
 
 body {
@@ -157,6 +160,7 @@ nav .header-menu {
   right: 0;
   bottom: 0;
   display: none;
+  background-color: var(--background-color);
 }
 
 nav .header-menu li {
@@ -189,6 +193,7 @@ nav .header-menu .submenu .submenu-icon {
 
 nav .header-menu > ul > li.submenu > ul {
   display: none;
+  background-color: var(--background-color);
 }
 
 nav .header-menu > ul > li.submenu > ul > li {
