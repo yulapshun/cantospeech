@@ -22,6 +22,12 @@ msgstr "/zh/speech_therapy.html"
 msgid "cantonese_link"
 msgstr "/zh/cantonese.html"
 
+msgid "lidcombe_link"
+msgstr "/zh/lidcombe.html"
+
+msgid "fluency_link"
+msgstr "/zh/fluency.html"
+
 msgid "resources_link"
 msgstr "/zh/resources.html"
 
@@ -38,7 +44,13 @@ msgid "speech_therapy_poster_link"
 msgstr "/images/poster_speech_therapy_zh.png"
 
 msgid "cantonese_poster_link"
-msgstr "/images/poster_cantonese_class_zh.png"
+msgstr "/images/poster_cantonese_zh.png"
+
+msgid "lidcombe_poster_link"
+msgstr "/images/poster_lidcombe_zh.png"
+
+msgid "fluency_poster_link"
+msgstr "/images/poster_fluency_zh.png"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"
@@ -62,6 +74,12 @@ msgstr "言語評估和治療"
 msgid "cantonese_text"
 msgstr "線上廣東話課程"
 
+msgid "lidcombe_text"
+msgstr "Lidcombe Program"
+
+msgid "fluency_text"
+msgstr "Fluency Plus Program"
+
 msgid "resources_text"
 msgstr "資源"
 
@@ -77,22 +95,37 @@ msgstr "© 2026 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
-msgstr "Grow With CantoSpeech 🌱"
+msgstr "Grow With CantoSpeech"
 
 msgid "index_text"
 msgstr "無論你是正在建立溝通能力的孩子，還是正在探索廣東話的人，我都希望能陪伴你的學習旅程。讓我們一起玩、說話、成長。"
 
 msgid "speech_therapy_link_aria_label"
-msgstr "Link to speech therapy description"
+msgstr "Link to speech therapy"
 
 msgid "speech_therapy_poster_alt_text"
 msgstr "Speech therapy poster"
 
 msgid "cantonese_link_aria_label"
-msgstr "Link to cantonese class description"
+msgstr "Link to cantonese class"
 
 msgid "cantonese_poster_alt_text"
-msgstr"Cantonese class poster"
+msgstr "Cantonese class poster"
+
+msgid "lidcombe_link_aria_label"
+msgstr "Link to Lidcombe program"
+
+msgid "lidcombe_poster_alt_text"
+msgstr "Lidcombe program poster"
+
+msgid "fluency_link_aria_label"
+msgstr "Link to fluency program"
+
+msgid "fluency_poster_alt_text"
+msgstr "Fluency program poster"
+
+msgid "book_an_appointment"
+msgstr "立即預約"
 
 # about.html ----------
 msgid "about_header"

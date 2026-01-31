@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body>
+    {% with current_page="resources.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    {% include 'footer.html' %}
+  </body>
+</html>

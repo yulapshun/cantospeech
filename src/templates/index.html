@@ -4,23 +4,38 @@
     <title>{{ gettext("title") }}</title>
     {% include "head_common.html" %}
   </head>
-  <body>
+  <body class="index-page">
     {% with current_page="" %}
       {% include "header.html" %}
     {% endwith %}
     <main>
-      <h1>{{ gettext("index_header") }}</h1>
-      <section>
-        <p>
-          {{ gettext("index_text") }}
-        </p>
+      <section class="top">
+        <div class="left">
+          <h1>{{ gettext("index_header") }}</h1>
+          <div>{{ gettext("index_text") }}</div>
+        </div>
+        <div class="right">
+          <img class="bubble" src="/images/speech_bubbles.svg" />
+          <img class="girl" src="/images/therapy_girl.svg" />
+        </div>
       </section>
       <section class="poster-container">
         <a href="{{ gettext("speech_therapy_link") }}" aria-label="{{ gettext("speech_therapy_link_aria_label") }}">
           <img src="{{ gettext("speech_therapy_poster_link") }}" alt={{ gettext("speech_therapy_poster_alt_text") }} loading="lazy" />
         </a>
+        <a href="{{ gettext("lidcombe_link") }}" aria-label={{ gettext("lidcombe_link_aria_label") }}>
+          <img src="{{ gettext("lidcombe_poster_link") }}" alt={{ gettext("lidcombe_poster_alt_text") }} loading="lazy" />
+        </a>
+        <a href="{{ gettext("fluency_link") }}" aria-label={{ gettext("fluency_poster_alt_text") }}>
+          <img src="{{ gettext("fluency_poster_link") }}" alt={{ gettext("Fluency program poster") }} loading="lazy" />
+        </a>
         <a href="{{ gettext("cantonese_link") }}" aria-label={{ gettext("cantonese_link_aria_label") }}>
           <img src="{{ gettext("cantonese_poster_link") }}" alt={{ gettext("cantonese_poster_alt_text") }} loading="lazy" />
+        </a>
+      </section>
+      <section class="button-container">
+        <a class="button-link light" href="{{ gettext("contact_link") }}">
+          {{ gettext("book_an_appointment") }}
         </a>
       </section>
     </main>

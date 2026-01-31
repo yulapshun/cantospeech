@@ -22,6 +22,12 @@ msgstr "/en/speech_therapy.html"
 msgid "cantonese_link"
 msgstr "/en/cantonese.html"
 
+msgid "lidcombe_link"
+msgstr "/en/lidcombe.html"
+
+msgid "fluency_link"
+msgstr "/en/fluency.html"
+
 msgid "resources_link"
 msgstr "/en/resources.html"
 
@@ -38,7 +44,13 @@ msgid "speech_therapy_poster_link"
 msgstr "/images/poster_speech_therapy_en.png"
 
 msgid "cantonese_poster_link"
-msgstr "/images/poster_cantonese_class_en.png"
+msgstr "/images/poster_cantonese_en.png"
+
+msgid "lidcombe_poster_link"
+msgstr "/images/poster_lidcombe_en.png"
+
+msgid "fluency_poster_link"
+msgstr "/images/poster_fluency_en.png"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"
@@ -62,6 +74,12 @@ msgstr "Speech Therapy Services"
 msgid "cantonese_text"
 msgstr "Online Cantonese Class"
 
+msgid "lidcombe_text"
+msgstr "Lidcombe Program"
+
+msgid "fluency_text"
+msgstr "Fluency Plus Program"
+
 msgid "resources_text"
 msgstr "Resources"
 
@@ -77,22 +95,37 @@ msgstr "© 2025 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
-msgstr "Grow With CantoSpeech 🌱"
+msgstr "Grow With CantoSpeech"
 
 msgid "index_text"
 msgstr "At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
 
 msgid "speech_therapy_link_aria_label"
-msgstr "Link to speech therapy description"
+msgstr "Link to speech therapy"
 
 msgid "speech_therapy_poster_alt_text"
 msgstr "Speech therapy poster"
 
 msgid "cantonese_link_aria_label"
-msgstr "Link to cantonese class description"
+msgstr "Link to cantonese class"
 
 msgid "cantonese_poster_alt_text"
-msgstr"Cantonese class poster"
+msgstr "Cantonese class poster"
+
+msgid "lidcombe_link_aria_label"
+msgstr "Link to Lidcombe program"
+
+msgid "lidcombe_poster_alt_text"
+msgstr "Lidcombe program poster"
+
+msgid "fluency_link_aria_label"
+msgstr "Link to fluency program"
+
+msgid "fluency_poster_alt_text"
+msgstr "Fluency program poster"
+
+msgid "book_an_appointment"
+msgstr "Book An Appointment"
 
 # about.html ----------
 msgid "about_header"
