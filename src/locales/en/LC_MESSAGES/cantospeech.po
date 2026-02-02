@@ -175,16 +175,31 @@ msgid "contact_text_1"
 msgstr "If you have any questions or would like more information, please feel free to reach out via email:"
 
 msgid "contact_form_header"
-msgstr "Contact Us:"
+msgstr "Contact Us"
 
 msgid "contact_form_label_1"
-msgstr "Name:"
+msgstr "Name*"
 
 msgid "contact_form_label_2"
-msgstr "Email:"
+msgstr "Email*"
 
 msgid "contact_form_label_3"
-msgstr "Message:"
+msgstr "Message*"
+
+msgid "contact_form_label_4"
+msgstr "Phone*"
+
+msgid "contact_form_service_question"
+msgstr "What type of service are you looking for?*"
+
+msgid "contact_form_service_option_1"
+msgstr "Consultation"
+
+msgid "contact_form_service_option_2"
+msgstr "Speech Therapy Services"
+
+msgid "contact_form_service_option_3"
+msgstr "Online Cantonese Class"
 
 msgid "contact_form_send_button_text"
 msgstr "Send"

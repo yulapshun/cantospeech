@@ -16,7 +16,7 @@
 <script src="/scripts/main.js"></script>
     <script src="/scripts/contact.js"></script>
   </head>
-  <body>
+  <body class="contact-page">
     
       
 <nav>
@@ -82,34 +82,51 @@
       <section>
         <p>
           如有任何問題或想了解更多資訊，歡迎透過以下電郵聯絡我們：
+          <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
         </p>
-        <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
       </section>
       <section class="contact-form-section">
         <form
           id="contactForm"
           method="POST"
           action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
-          <fieldset>
-            <legend>聯絡我們</legend>
-            <div>
-              <label for="name">姓名：</label><br />
-              <input name="name" type="text" autocomplete="name" required />
+          <div class="field-group">
+            <div class="field">
+              <label for="name">姓名*</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="姓名*" required />
             </div>
-            <div>
-              <label for="email">電郵：</label><br />
-              <input name="email" type="email" autocomplete="email" required />
+            <div class="field">
+              <label for="email">電郵*</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="電郵*" required />
             </div>
-            <div>
-              <label for="message">查詢內容：</label><br />
-              <textarea name="message" rows="3" required></textarea>
+          </div>
+          <div class="field-group">
+            <div class="field">
+              <label for="phone">聯絡電話*</label><br />
+              <input id="phone" name="phone" type="phone" autocomplete="phone" placeholder="聯絡電話*" required />
             </div>
-            <div>
-              <button type="submit">傳送</button>
+          </div>
+          <div class="field-group">
+            <fieldset>
+              <legend>你想要哪一類的服務？*</legend>
+              <input type="radio" id="consultation" name="service" value="Consultation" />
+              <label for="consultation">咨詢</label>
+              <input type="radio" id="speech_therapy" name="service" value="Speech Therapy" />
+              <label for="speech_therapy" >言語評估和治療</label>
+              <input type="radio" id="cantonese" name="service" value="Cantonese Class" />
+              <label for="cantonese">線上廣東話課程</label>
+            </fieldset>
+          </div>
+          <div class="field-group">
+            <div class="field">
+              <label for="message">訊息*</label><br />
+              <textarea id="message" name="message" rows="3" required></textarea>
             </div>
-            <div class="form-submit-status"></div>
-          </fieldset>
+          </div>
+          <button type="submit">傳送</button>
+          <div class="form-submit-status"></div>
         </form>
+        <img aria-hidden="true" class="logo" src="/images/logo_base.svg" />
       </section>
     </main>
     <footer>

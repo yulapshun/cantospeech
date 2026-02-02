@@ -4,16 +4,19 @@
   --header-height: calc(50px + 2 * var(--default-margin));
 
   --background-color: #fff;
+  --background-color-2: #f2e5ff;
 
   --text-color: #07020b;
+  --text-color-grey: #808080;
   --text-color-hover: #6c6172;
   --text-color-light: #fff;
   --text-color-light-hover: #c6c6c6;
+  --text-field-color: #f7efff;
 
   --main-color: #b174e7;
   --main-color-hover: #bd98e3;
   --main-color-light: #d8c7fa;
-  --main-color-light-hover: #9d8cbc
+  --main-color-light-hover: #9d8cbc;
 }
 
 html {
@@ -314,22 +317,61 @@ footer {
 /* ----- end home page  ----- */
 
 /* ----- start contact page  ----- */
-.contact-form-section form > fieldset {
+.contact-page {
+  background-color: var(--background-color-2);
+}
+
+.contact-page nav .header-menu {
+  background-color: var(--background-color-2);
+}
+
+.contact-page nav .header-menu > ul > li.submenu > ul {
+  background-color: var(--background-color-2);
+}
+
+.contact-page h1 {
+  color: var(--text-color);
+}
+
+.contact-page .contact-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--default-margin);
+}
+
+.contact-page .contact-form-section .logo {
+  display: none;
+}
+
+.contact-page .field-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--default-margin);
+}
+
+.contact-page .field-group fieldset {
+  margin: inherit;
+  padding: inherit;
   border: none;
 }
 
-.contact-form-section form > fieldset > div {
-  margin-block: 1em;
+.contact-page .field-group .field {
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-form-section form input {
-  width: 50%;
+.contact-page .field-group .field label, .contact-page .field-group fieldset legend {
+  font-size: 0.7em;
+  font-weight: bold;
+  line-height: 1.6em;
+  color: var(--text-color-grey);
 }
 
-.contact-form-section form textarea {
-  width: 100%;
-  field-sizing: content;
-  resize: none;
+.contact-page input, .contact-page textarea {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .contact-form-section .form-submit-status {
@@ -342,6 +384,20 @@ footer {
 /* ----- end contact page  ----- */
 
 @media (min-width: 576px) {
+  .contact-page .contact-form-section {
+    display: flex;
+    gap: var(--default-margin);
+  }
+
+  .contact-page .contact-form-section form {
+    flex: 2;
+  }
+
+  .contact-page .contact-form-section .logo {
+    display: initial;
+    flex: 1;
+    align-self: flex-start;
+  }
 }
 
 @media (min-width: 768px) {

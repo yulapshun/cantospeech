@@ -178,13 +178,28 @@ msgid "contact_form_header"
 msgstr "聯絡我們"
 
 msgid "contact_form_label_1"
-msgstr "姓名："
+msgstr "姓名*"
 
 msgid "contact_form_label_2"
-msgstr "電郵："
+msgstr "電郵*"
 
 msgid "contact_form_label_3"
-msgstr "查詢內容："
+msgstr "訊息*"
+
+msgid "contact_form_label_4"
+msgstr "聯絡電話*"
+
+msgid "contact_form_service_question"
+msgstr "你想要哪一類的服務？*"
+
+msgid "contact_form_service_option_1"
+msgstr "咨詢"
+
+msgid "contact_form_service_option_2"
+msgstr "言語評估和治療"
+
+msgid "contact_form_service_option_3"
+msgstr "線上廣東話課程"
 
 msgid "contact_form_send_button_text"
 msgstr "傳送"
