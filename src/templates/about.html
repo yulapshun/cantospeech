@@ -8,52 +8,55 @@
     {% with current_page="about.html" %}
       {% include 'header.html' %}
     {% endwith %}
-    <main>
-      <h1>{{ gettext("about_header") }}</h1>
-      <section>
-        <p>
-          {{ gettext("about_text_1") }}
-        </p>
-        <p>
-          {{ gettext("about_text_2") }}
-        </p>
-        <p>
-          {{ gettext("about_text_3") }}
-        </p>
-      </section>
-      <section>
-        <h2>
-          {{ gettext("about_professional_registrations_header") }}
-        </h2>
-        <p>
+    <main class="two-columns">
+      <div class="left">
+        <h1>{{gettext("about_header") }}</h1>
+        <section>
+          <p>
+            {{ gettext("about_text_1") }}
+          </p>
+          <p>
+            {{ gettext("about_text_2") }}
+          </p>
+        </section>
+      </div>
+      <div class="right">
+        <section>
+          <h2>
+            {{ gettext("about_professional_registrations_header") }}
+          </h2>
+          <p>
           <ul>
             <li>{{ gettext("about_professional_registrations_1") }}</li>
             <li>{{ gettext("about_professional_registrations_2") }}</span></li>
           </ul>
-        </p>
-      </section>
-      <section>
-      <h2>
-        {{ gettext("about_qualifications_header") }}
-      </h2>
-        <p>
+          </p>
+        </section>
+        <section>
+          <h2>
+            {{ gettext("about_qualifications_header") }}
+          </h2>
+          <p>
           <ul>
             <li>{{ gettext("about_qualifications_text_1") }}</span></li>
             <li>{{ gettext("about_qualifications_text_2") }}</li>
           </ul>
-        <p/>
-      </section>
-      <section>
-        <h2>
-          {{ gettext("about_professional_training_header") }}
-        </h2>
-        <p>
+          <p />
+        </section>
+        <section>
+          <h2>
+            {{ gettext("about_professional_training_header") }}
+          </h2>
+          <p>
           <ul>
             <li>{{ gettext("about_professional_trainins_text_1") }}</li>
             <li>{{ gettext("about_professional_trainins_text_2") }}</li>
+            <li>{{ gettext("about_professional_trainins_text_3") }}</li>
+            <li>{{ gettext("about_professional_trainins_text_4") }}</li>
           </ul>
-        </p>
-      </section>
+          </p>
+        </section>
+      </div>
     </main>
     {% include 'footer.html' %}
   </body>

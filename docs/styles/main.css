@@ -80,6 +80,20 @@ ol, ul {
   padding-inline-start: 20px;
 }
 
+.two-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
 .footnote {
   font-size: 0.7em;
   line-height: 1.2em;
@@ -384,6 +398,11 @@ footer {
 /* ----- end contact page  ----- */
 
 @media (min-width: 576px) {
+  .two-columns {
+    flex-direction: row;
+    gap: var(--default-margin);
+  }
+
   .contact-page .contact-form-section {
     display: flex;
     gap: var(--default-margin);

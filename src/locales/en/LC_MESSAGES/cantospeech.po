@@ -132,13 +132,10 @@ msgid "about_header"
 msgstr "About"
 
 msgid "about_text_1"
-msgstr "I’m Amanda, a registered Speech-Language Pathologist with the College of Audiologists and Speech-Language Pathologists of Ontario (CASLPO). I have experience supporting children with language disorders, speech sound difficulties, learning challenges, and Autism Spectrum Disorder."
+msgstr "I’m Amanda, a registered Speech-Language Pathologist with the College of Audiologists and Speech-Language Pathologists of Ontario (CASLPO) from Hong Kong, currently living in Canada. I provide regulated speech and language services to children and their families, with a focus on Autism Spectrum Disorder, speech sound disorders, and fluency disorders, delivered through both in-home and online sessions."
 
 msgid "about_text_2"
-msgstr "I provide speech and language services (regulated service) to children and their families, both in-home and online."
-
-msgid "about_text_3"
-msgstr "I also offer personalized online Cantonese lessons (non-regulated service) for learners of all ages, helping them build confidence, enjoy the language, and grow at their own pace."
+msgstr "I also offer personalized online Cantonese lessons (a non-regulated service) for learners of all ages, supporting them in building confidence, enjoying the language, and progressing at their own pace."
 
 msgid "about_professional_registrations_header"
 msgstr "Professional Registrations"
@@ -162,10 +159,17 @@ msgid "about_professional_training_header"
 msgstr "Professional Training"
 
 msgid "about_professional_trainins_text_1"
-msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) -Introduction"
+msgstr "Lidcombe Program (for Early Stuttering intervention)"
 
 msgid "about_professional_trainins_text_2"
-msgstr "Oral Placement Therapy (OPT)-Level 1"
+msgstr "Fluency Plus Program (for School-Age Stuttering intervention)"
+
+msgid "about_professional_trainins_text_3"
+msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) - Introduction"
+
+msgid "about_professional_trainins_text_4"
+msgstr "Oral Placement Therapy (OPT) - Level 1"
+
 
 # contact.html ----------
 msgid "contact_header"
