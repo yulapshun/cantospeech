@@ -52,6 +52,9 @@ msgstr "/images/poster_lidcombe_en.png"
 msgid "fluency_poster_link"
 msgstr "/images/poster_fluency_en.png"
 
+msgid "book_an_appointment"
+msgstr "Book An Appointment"
+
 # Header ----------
 msgid "cantospeech_logo_alt_text"
 msgstr "CantoSpeech Logo"
@@ -123,9 +126,6 @@ msgstr "Link to fluency program"
 
 msgid "fluency_poster_alt_text"
 msgstr "Fluency program poster"
-
-msgid "book_an_appointment"
-msgstr "Book An Appointment"
 
 # about.html ----------
 msgid "about_header"
@@ -212,48 +212,104 @@ msgstr "Send"
 msgid "speech_therapy_header"
 msgstr "Speech Therapy Services"
 
-msgid "speech_therapy_assessment_header_1"
-msgstr "60-minute assessment session"
-
-msgid "speech_therapy_assessment_header_2"
-msgstr "(includes a 10-minute debrief)"
-
-msgid "speech_therapy_assessment_text_1"
-msgstr "To conduct an assessment for language comprehension, expressive language, speech sounds, social communication, and higher-order thinking"
-
-msgid "speech_therapy_assessment_text_2"
-msgstr "To review the assessment results and provide tailored recommendations"
-
-msgid "speech_therapy_assessment_text_3"
-msgstr "Assessment summary and goals sheet can be included upon request"
-
-msgid "speech_therapy_session_header_1"
-msgstr "60-minute therapy sessions and parent coaching"
-
-msgid "speech_therapy_session_header_2"
-msgstr "(includes a 10-minute debrief)"
-
 msgid "speech_therapy_text_1"
 msgstr "Speech Therapy Services (regulated service) are available in English and Cantonese. I can also communicate with parents through Mandarin. Sessions are available online or via home visits."
 
+msgid "speech_therapy_header_2"
+msgstr "Consultation"
+
 msgid "speech_therapy_text_2"
 msgstr "If you have concerns about your child’s language and communication development, you are welcome to contact me for a free 10-minute initial consultation."
+
+msgid "speech_therapy_header_3"
+msgstr "Assessment"
+
+msgid "speech_therapy_text_3"
+msgstr "$200/ 1 hour (with assessment summary and goals sheet)"
+
+msgid "speech_therapy_text_4"
+msgstr "A comprehensive assessment of language comprehension, expressive language, speech sounds, social communication, and fluency, with individualized goals tailored to each client’s needs."
+
+msgid "speech_therapy_header_4"
+msgstr "Treatments"
+
+msgid "speech_therapy_text_5"
+msgstr "$140/ 45 mins"
+
+msgid "speech_therapy_text_6"
+msgstr "Tailored therapy designed to support each client’s communication goals using functional, evidence-based approaches."
+
+msgid "speech_therapy_text_7"
+msgstr "Please note: A $20 travel fee applies to all in-home services."
 
 # cantonese.html ----------
 msgid "cantonese_header"
 msgstr "Online Cantonese Class"
 
+msgid "cantonese_header_2"
+msgstr "Lesson"
+
 msgid "cantonese_text_1"
-msgstr "45-minute or 60-minute lessons (includes a 5-minute debrief)"
+msgstr "$45/ 45 mins"
 
 msgid "cantonese_text_2"
-msgstr "1:1/small group setting"
+msgstr "$60/ 1 hour"
 
 msgid "cantonese_text_3"
-msgstr "Theme-based activities/games,songs, stories, functional speech, and more"
+msgstr "1:1/small group setting"
 
 msgid "cantonese_text_4"
+msgstr "Theme-based activities/games,songs, stories, functional speech, and more"
+
+msgid "cantonese_text_5"
 msgstr "Services are available in Cantonese (supplement in English and Mandarin)"
 
 msgid "cantonese_footnote"
 msgstr "*Online Cantonese class is a non-regulated service. It does not involve any therapeutic assessment or treatment. This service is separate from speech-language services and is intended for learners of Cantonese for cultural, academic, or personal enrichment."
+
+# lidcombe.html ----------
+msgid "stuttering_program_header"
+msgstr "Stuttering Program"
+
+msgid "lidcombe_header"
+msgstr "Lidcombe Program"
+
+msgid "lidcombe_text_1"
+msgstr "Parents are trained by a speech-language pathologist to deliver specific verbal feedback in everyday situations to reinforce fluent speech and gently acknowledge stuttering."
+
+msgid "lidcombe_text_2"
+msgstr "Research-based"
+
+msgid "lidcombe_text_3"
+msgstr "The Program was developed by the Australian Stuttering Research Centre"
+
+msgid "lidcombe_text_4"
+msgstr "Uses real-life conversations"
+
+msgid "lidcombe_text_5"
+msgstr "During normal daily activities"
+
+msgid "lidcombe_text_6"
+msgstr "Parent-led. clinician-supervised and child-friendly"
+
+# fluency.html ----------
+msgid "fluency_header"
+msgstr "Fluency Plus Program"
+
+msgid "fluency_text_1"
+msgstr "Using fluency-enhancing and cognitive restructuring techniques to improve fluency and reduce anxiety/negative thoughts related to speaking."
+
+msgid "fluency_text_2"
+msgstr "Research-based"
+
+msgid "fluency_text_3"
+msgstr "The Program was developed by the Speech & Stuttering Institute in Canada"
+
+msgid "fluency_text_4"
+msgstr "Clinician‑delivered"
+
+msgid "fluency_text_5"
+msgstr "Supports everyday speaking situations"
+
+msgid "fluency_text_6"
+msgstr "Improves fluency and communication confidence"

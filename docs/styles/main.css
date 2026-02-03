@@ -40,6 +40,7 @@ body {
 h1, h2 {
   line-height: 1.3em;
   color: var(--main-color);
+  text-transform: uppercase;
 }
 
 .mobile-only {
@@ -76,6 +77,15 @@ h1, h2 {
   background-color: var(--main-color-hover);
 }
 
+.appointment-btn {
+  line-height: 1.2em;
+  height: auto;
+  padding-block: 0.5em;
+  max-width: 14ch;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 ol, ul {
   padding-inline-start: 20px;
 }
@@ -84,6 +94,10 @@ ol, ul {
   display: flex;
   flex-direction: column;
   gap: 0;
+}
+
+.two-columns img {
+  max-width: 100%;
 }
 
 .left {
@@ -239,22 +253,6 @@ main {
 main > section {
   margin-block-start: var(--default-margin);
 }
-
-main > section .top {
-  display: flex;
-  flex-direction: column;
-}
-
-main > section .top > img {
-  align-self: center;
-  width: 100%;
-  min-width: 200px;
-  max-width: 350px;
-}
-
-main > section > iframe {
-  width: 100%;
-}
 /* ----- end main ----- */
 
 footer {
@@ -303,7 +301,7 @@ footer {
 .index-page .poster-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: calc(var(--default-margin) / 2);
 }
 
@@ -314,19 +312,11 @@ footer {
 .index-page .poster-container img {
   width: 100%;
   min-width: 200px;
-  max-width: 240px;
+  max-width: 100%;
 }
 
 .index-page .button-container {
   text-align: center;
-}
-
-.index-page .button-container .button-link {
-  line-height: 1.2em;
-  height: auto;
-  padding-block: 0.5em;
-  max-width: 14ch;
-  text-transform: uppercase;
 }
 /* ----- end home page  ----- */
 
@@ -397,10 +387,66 @@ footer {
 }
 /* ----- end contact page  ----- */
 
+/* ----- start service pages ----- */
+.service-page .button-container {
+  display: flex;
+  gap: var(--default-margin);
+}
+
+.service-page .button-container .button-container-text{
+  flex: 1;
+}
+
+.cantonese-page h1, .cantonese-page h2 {
+  color: #58a8f1;
+}
+
+.cantonese-page .button-link.appointment-btn {
+  background-color: #58a8f1;
+  color: #fff;
+}
+
+.cantonese-page .button-link.appointment-btn:hover {
+  background-color: #3b8cd3;
+}
+
+.lidcombe-page h1 {
+  color: #609165;
+}
+
+.lidcombe-page h2 {
+  color: #74cc00;
+}
+
+.lidcombe-page main ul {
+  list-style-type: none;
+}
+
+.lidcombe-page main ul li::marker {
+  content:"\2713\0020";
+}
+
+.fluency-page h1, .fluency-page h2 {
+  color: #609165;
+}
+
+.fluency-page main ul {
+  list-style-type: none;
+}
+
+.fluency-page main ul li::marker {
+  content:"\2713\0020";
+}
+/* ----- end service pages ----- */
+
 @media (min-width: 576px) {
   .two-columns {
     flex-direction: row;
     gap: var(--default-margin);
+  }
+
+  .index-page .poster-container img {
+    max-width: 240px;
   }
 
   .contact-page .contact-form-section {
@@ -416,6 +462,10 @@ footer {
     display: initial;
     flex: 1;
     align-self: flex-start;
+  }
+
+  .service-page .poster {
+    width: 80%;
   }
 }
 
@@ -484,18 +534,6 @@ footer {
 
   main > section {
     padding-block-start: calc(2 * var(--default-margin));
-  }
-
-  main > section .top {
-    flex-direction: row;
-  }
-
-  main > section .top img {
-    min-width: 300px;
-  }
-
-  main > section .top .button-link {
-    margin-inline-start: 40px;
   }
 
   .index-page .top {

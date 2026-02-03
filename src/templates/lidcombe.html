@@ -4,10 +4,33 @@
     <title>{{ gettext("title") }}</title>
     {% include 'head_common.html' %}
   </head>
-  <body>
-    {% with current_page="resources.html" %}
+  <body class="service-page lidcombe-page">
+    {% with current_page="lidcombe.html" %}
       {% include 'header.html' %}
     {% endwith %}
+    <main class="two-columns">
+      <div class="left">
+        <h1>{{ gettext("stuttering_program_header") }}</h1>
+        <section>
+          <img
+            class="poster"
+            src="{{ gettext("lidcombe_poster_link") }}"
+            alt="{{ gettext("lidcombe_poster_alt_text") }}" loading="lazy" />
+        </section>
+      </div>
+      <div class="right">
+        <section>
+          <h2>{{ gettext("lidcombe_header") }}</h2>
+          {{ gettext("lidcombe_text_1") }}
+          <ul>
+            <li>{{ gettext("lidcombe_text_2") }}<br />{{ gettext("lidcombe_text_3") }}</li>
+            <li>{{ gettext("lidcombe_text_4") }}</li>
+            <li>{{ gettext("lidcombe_text_5") }}</li>
+            <li>{{ gettext("lidcombe_text_6") }}</li>
+          </ul>
+        </section>
+      </div>
+    </main>
     {% include 'footer.html' %}
   </body>
 </html>

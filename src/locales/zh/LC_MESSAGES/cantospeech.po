@@ -52,6 +52,9 @@ msgstr "/images/poster_lidcombe_zh.png"
 msgid "fluency_poster_link"
 msgstr "/images/poster_fluency_zh.png"
 
+msgid "book_an_appointment"
+msgstr "立即預約"
+
 # Header ----------
 msgid "cantospeech_logo_alt_text"
 msgstr "CantoSpeech Logo"
@@ -123,9 +126,6 @@ msgstr "Link to fluency program"
 
 msgid "fluency_poster_alt_text"
 msgstr "Fluency program poster"
-
-msgid "book_an_appointment"
-msgstr "立即預約"
 
 # about.html ----------
 msgid "about_header"
@@ -211,48 +211,104 @@ msgstr "傳送"
 msgid "speech_therapy_header"
 msgstr "言語評估和治療"
 
-msgid "speech_therapy_assessment_header_1"
-msgstr "60分鐘評估"
-
-msgid "speech_therapy_assessment_header_2"
-msgstr "（包括10分鐘家長咨詢）"
-
-msgid "speech_therapy_assessment_text_1"
-msgstr "與孩子進行評估（包括：語言理解、語言表達、咬字發音、社交溝通及高階思考等等）"
-
-msgid "speech_therapy_assessment_text_2"
-msgstr "完成評估後，我會解釋評估結果，並與家長一同訂立治療方案"
-
-msgid "speech_therapy_assessment_text_3"
-msgstr "如有需要，可提供評估摘要及學習目標表"
-
-msgid "speech_therapy_session_header_1"
-msgstr "60分鐘治療課程與家長指導"
-
-msgid "speech_therapy_session_header_2"
-msgstr "（包括10分鐘家長咨詢）"
-
 msgid "speech_therapy_text_1"
 msgstr "評估及治療服務（受監管服務）以英語或廣東話進行 。我亦能以普通話跟家長溝通。可視像或上門。"
 
+msgid "speech_therapy_header_2"
+msgstr "咨詢"
+
 msgid "speech_therapy_text_2"
 msgstr "若你對孩子的語言/溝通能力發展有疑問，歡迎聯絡我作10分鐘免費諮詢。"
+
+msgid "speech_therapy_header_3"
+msgstr "評估"
+
+msgid "speech_therapy_text_3"
+msgstr "$200/ 1小時 (包含評估簡報及學習目標表"
+
+msgid "speech_therapy_text_4"
+msgstr "全面評估孩子的語言理解、語言表達、咬字發音、社交溝通及說話流暢度，並訂立目標。"
+
+msgid "speech_therapy_header_4"
+msgstr "治療"
+
+msgid "speech_therapy_text_5"
+msgstr "$140/ 45 分鐘"
+
+msgid "speech_therapy_text_6"
+msgstr "Tailored therapy designed to support each client’s communication goals using functional, evidence-based approaches."
+
+msgid "speech_therapy_text_7"
+msgstr "請注意：所有上門服務將收取 $20 的交通費。"
 
 # cantonese.html ----------
 msgid "cantonese_header"
 msgstr "線上廣東話課程"
 
+msgid "cantonese_header_2"
+msgstr "課程"
+
 msgid "cantonese_text_1"
-msgstr "45 或60分鐘課程（包括5分鐘家長咨詢）"
+msgstr "$45/ 45 分鐘"
 
 msgid "cantonese_text_2"
-msgstr "一對一/小組教學"
+msgstr "$60/ 1 小時"
 
 msgid "cantonese_text_3"
-msgstr "主題活動/遊戲、兒歌/歌曲、故事、日常對話等互動"
+msgstr "一對一/小組教學"
 
 msgid "cantonese_text_4"
+msgstr "主題活動/遊戲、兒歌/歌曲、故事、日常對話等互動"
+
+msgid "cantonese_text_5"
 msgstr "課程以廣東話為主（可輔以英語及普通話）"
 
 msgid "cantonese_footnote"
 msgstr "*線上廣東話課程屬於非受監管服務，不涉及任何治療性評估或治療。此服務與言語治療服務分開，旨在為學習者提供廣東話教學，以作文化、學術或個人興趣之用途。"
+
+# lidcombe.html ----------
+msgid "stuttering_program_header"
+msgstr "口吃課程"
+
+msgid "lidcombe_header"
+msgstr "Lidcombe Program"
+
+msgid "lidcombe_text_1"
+msgstr "父母在言語治療師指導下，學會如何在日常生活中測量幼兒口吃的嚴重程度及透過遊戲正面回應幼兒的口吃，幫助幼兒說話更流暢。"
+
+msgid "lidcombe_text_2"
+msgstr "研究支持"
+
+msgid "lidcombe_text_3"
+msgstr "本計劃由Australian Stuttering Research Centre 開發"
+
+msgid "lidcombe_text_4"
+msgstr "真實生活對話練習"
+
+msgid "lidcombe_text_5"
+msgstr "日常活動中進行"
+
+msgid "lidcombe_text_6"
+msgstr "家長主導，治療師監督，親子友善"
+
+# fluency.html ----------
+msgid "fluency_header"
+msgstr "Fluency Plus Program"
+
+msgid "fluency_text_1"
+msgstr "透過運用流暢度提升技巧及認知重塑策略，幫助學齡兒童和成人說話更順暢，同時減少說話時的焦慮與負面想法，提升溝通自信。"
+
+msgid "fluency_text_2"
+msgstr "研究支持"
+
+msgid "fluency_text_3"
+msgstr "本計劃由Australian Stuttering Research Centre 開發"
+
+msgid "fluency_text_4"
+msgstr "由治療師執行"
+
+msgid "fluency_text_5"
+msgstr "支援日常說話情境"
+
+msgid "fluency_text_6"
+msgstr "提升說話流暢度與溝通自信"
