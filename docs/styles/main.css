@@ -79,7 +79,7 @@ h1, h2 {
 
 .appointment-btn {
   line-height: 1.2em;
-  height: auto;
+  height: fit-content;
   padding-block: 0.5em;
   max-width: 14ch;
   text-transform: uppercase;
