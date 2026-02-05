@@ -30,12 +30,20 @@ window.addEventListener('load', function() {
     menuShowing = false;
     headerMenu.classList.remove('show');
     menuOverlay.classList.remove('menu-showing');
+    submenuToggles.forEach(t => t.classList.remove('show'));
   });
 
   submenuToggles.forEach(toggle => {
     toggle.addEventListener('click', function(event) {
       event.preventDefault();
-      toggle.classList.toggle('show');
+      let isShowing = toggle.classList.contains('show');
+      submenuToggles.forEach(t => t.classList.remove('show'));
+      if (!isShowing) {
+        toggle.classList.add('show');
+        menuOverlay.classList.add('menu-showing');
+      } else {
+        menuOverlay.classList.remove('menu-showing');
+      }
     });
   });
 

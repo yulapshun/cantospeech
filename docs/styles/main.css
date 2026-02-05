@@ -228,6 +228,11 @@ nav .header-menu > ul > li.submenu > ul {
 }
 
 nav .header-menu > ul > li.submenu > ul > li {
+  padding: 0;
+}
+
+nav .header-menu > ul > li.submenu > ul > li > a {
+  display: block;
   padding-block: calc(var(--default-margin) / 2);
 }
 
@@ -490,8 +495,9 @@ footer {
     display: none;
   }
 
-  nav .menu-overlay {
-    display: none !important;
+  nav .menu-overlay.menu-showing {
+    background-color: rgba(0, 0, 0, 0.0);
+    /* display: none !important; */
   }
 
   nav .header-menu {
@@ -521,11 +527,19 @@ footer {
     position: absolute;
     min-width: 100%;
     padding: 0;
+    border: solid 1px silver;
   }
 
   nav .header-menu > ul > li.submenu > ul > li {
+    padding: 0;
+  }
+
+  nav .header-menu > ul > li.submenu > ul > li > a {
+    display: block;
     padding-inline: var(--default-margin);
     padding-block: calc(var(--default-margin) / 2);
+    width: 100%;
+    height: 100%;
   }
 
   main {
