@@ -376,6 +376,10 @@ footer {
   color: var(--text-color-grey);
 }
 
+.contact-page .field-group .field label, .contact-page .field-group fieldset span {
+  white-space: nowrap;
+}
+
 .contact-page input, .contact-page textarea {
   border-radius: 10px;
   padding: 5px 10px;
