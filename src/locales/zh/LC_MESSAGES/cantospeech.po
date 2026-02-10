@@ -104,7 +104,7 @@ msgid "index_text_1"
 msgstr "每個人都有獨特的聲音。每個人都有能力成長。"
 
 msgid "index_text_2"
-msgstr "無論你是正在建立溝通能力的孩子，還是正在探索廣東話的人，我都希望能陪伴你的學習旅程。讓我們一起玩、說話、成長。"
+msgstr "無論你想提升孩子的語言和溝通能力，還是想學習廣東話，我都希望能陪伴你走過這段路。讓我們一起玩、說話、成長。"
 
 msgid "speech_therapy_link_aria_label"
 msgstr "Link to speech therapy"
