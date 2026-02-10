@@ -236,7 +236,7 @@ msgid "speech_therapy_text_5"
 msgstr "$140/ 45 分鐘"
 
 msgid "speech_therapy_text_6"
-msgstr "Tailored therapy designed to support each client’s communication goals using functional, evidence-based approaches."
+msgstr " "
 
 msgid "speech_therapy_text_7"
 msgstr "請注意：所有上門服務將收取 $20 的交通費。"

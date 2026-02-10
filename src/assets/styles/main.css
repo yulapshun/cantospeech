@@ -13,15 +13,15 @@
   --text-color-light-hover: #c6c6c6;
   --text-field-color: #f7efff;
 
-  --main-color: #b174e7;
-  --main-color-hover: #bd98e3;
+  --main-color: #bd98e3;
+  --main-color-hover: #b174e7;
   --main-color-light: #d8c7fa;
   --main-color-light-hover: #9d8cbc;
 }
 
 html {
   height: 100%;
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: sans-serif;
   color: var(--text-color);
   line-height: 1.8em;
@@ -127,7 +127,7 @@ nav .nav-container {
   justify-content: space-between;
   margin: auto;
   height: 100%;
-  max-width: 992px;
+  max-width: 1200px;
 }
 
 nav a {
@@ -248,7 +248,7 @@ nav .header-menu > ul > li.submenu.show .submenu-icon {
 /* ----- start main ----- */
 main {
   width: calc(100% - 2 * var(--default-margin));
-  max-width: 992px;
+  max-width: 1200px;
   box-sizing: border-box;
   margin-block-start: calc(2 * var(--default-margin));
   margin-block-end: calc(2 * var(--default-margin));
@@ -387,6 +387,15 @@ footer {
   border-width: 1px;
 }
 
+.contact-page .field-group .field:has(#message) {
+  width: 100%;
+}
+
+.contact-page #message {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .contact-form-section .form-submit-status {
   font-size: 0.8em;
 }
@@ -428,11 +437,7 @@ footer {
 }
 
 .lidcombe-page main ul {
-  list-style-type: none;
-}
-
-.lidcombe-page main ul li::marker {
-  content:"\2713\0020";
+  list-style-image: url('/images/check.svg');
 }
 
 .fluency-page h1, .fluency-page h2 {
@@ -440,11 +445,7 @@ footer {
 }
 
 .fluency-page main ul {
-  list-style-type: none;
-}
-
-.fluency-page main ul li::marker {
-  content:"\2713\0020";
+  list-style-image: url('/images/check.svg');
 }
 /* ----- end service pages ----- */
 
@@ -455,7 +456,7 @@ footer {
   }
 
   .index-page .poster-container img {
-    max-width: 240px;
+    max-width: 280px;
   }
 
   .contact-page .contact-form-section {
