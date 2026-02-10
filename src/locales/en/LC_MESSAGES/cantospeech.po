@@ -100,8 +100,11 @@ msgstr "© 2025 CantoSpeech. All Rights Reserved"
 msgid "index_header"
 msgstr "Grow With CantoSpeech"
 
-msgid "index_text"
-msgstr "At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
+msgid "index_text_1"
+msgstr "At CantoSpeech, we believe every voice has the power to grow."
+
+msgid "index_text_2"
+msgstr "Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
 
 msgid "speech_therapy_link_aria_label"
 msgstr "Link to speech therapy"
