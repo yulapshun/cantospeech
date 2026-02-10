@@ -22,6 +22,12 @@ msgstr "/en/speech_therapy.html"
 msgid "cantonese_link"
 msgstr "/en/cantonese.html"
 
+msgid "lidcombe_link"
+msgstr "/en/lidcombe.html"
+
+msgid "fluency_link"
+msgstr "/en/fluency.html"
+
 msgid "resources_link"
 msgstr "/en/resources.html"
 
@@ -38,7 +44,16 @@ msgid "speech_therapy_poster_link"
 msgstr "/images/poster_speech_therapy_en.png"
 
 msgid "cantonese_poster_link"
-msgstr "/images/poster_cantonese_class_en.png"
+msgstr "/images/poster_cantonese_en.png"
+
+msgid "lidcombe_poster_link"
+msgstr "/images/poster_lidcombe_en.png"
+
+msgid "fluency_poster_link"
+msgstr "/images/poster_fluency_en.png"
+
+msgid "book_an_appointment"
+msgstr "Book An Appointment"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"
@@ -62,6 +77,12 @@ msgstr "Speech Therapy Services"
 msgid "cantonese_text"
 msgstr "Online Cantonese Class"
 
+msgid "lidcombe_text"
+msgstr "Lidcombe Program"
+
+msgid "fluency_text"
+msgstr "Fluency Plus Program"
+
 msgid "resources_text"
 msgstr "Resources"
 
@@ -77,35 +98,47 @@ msgstr "© 2025 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
-msgstr "Grow With CantoSpeech 🌱"
+msgstr "Grow With CantoSpeech"
 
-msgid "index_text"
-msgstr "At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
+msgid "index_text_1"
+msgstr "At CantoSpeech, we believe every voice has the power to grow."
+
+msgid "index_text_2"
+msgstr "Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
 
 msgid "speech_therapy_link_aria_label"
-msgstr "Link to speech therapy description"
+msgstr "Link to speech therapy"
 
 msgid "speech_therapy_poster_alt_text"
 msgstr "Speech therapy poster"
 
 msgid "cantonese_link_aria_label"
-msgstr "Link to cantonese class description"
+msgstr "Link to cantonese class"
 
 msgid "cantonese_poster_alt_text"
-msgstr"Cantonese class poster"
+msgstr "Cantonese class poster"
+
+msgid "lidcombe_link_aria_label"
+msgstr "Link to Lidcombe program"
+
+msgid "lidcombe_poster_alt_text"
+msgstr "Lidcombe program poster"
+
+msgid "fluency_link_aria_label"
+msgstr "Link to fluency program"
+
+msgid "fluency_poster_alt_text"
+msgstr "Fluency program poster"
 
 # about.html ----------
 msgid "about_header"
 msgstr "About"
 
 msgid "about_text_1"
-msgstr "I’m Amanda, a registered Speech-Language Pathologist with the College of Audiologists and Speech-Language Pathologists of Ontario (CASLPO). I have experience supporting children with language disorders, speech sound difficulties, learning challenges, and Autism Spectrum Disorder."
+msgstr "I’m Amanda, a registered Speech-Language Pathologist with the College of Audiologists and Speech-Language Pathologists of Ontario (CASLPO) from Hong Kong, currently living in Canada. I provide regulated speech and language services to children and their families, with a focus on Autism Spectrum Disorder, speech sound disorders, and fluency disorders, delivered through both in-home and online sessions."
 
 msgid "about_text_2"
-msgstr "I provide speech and language services (regulated service) to children and their families, both in-home and online."
-
-msgid "about_text_3"
-msgstr "I also offer personalized online Cantonese lessons (non-regulated service) for learners of all ages, helping them build confidence, enjoy the language, and grow at their own pace."
+msgstr "I also offer personalized online Cantonese lessons (a non-regulated service) for learners of all ages, supporting them in building confidence, enjoying the language, and progressing at their own pace."
 
 msgid "about_professional_registrations_header"
 msgstr "Professional Registrations"
@@ -129,10 +162,17 @@ msgid "about_professional_training_header"
 msgstr "Professional Training"
 
 msgid "about_professional_trainins_text_1"
-msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) -Introduction"
+msgstr "Lidcombe Program (for Early Stuttering intervention)"
 
 msgid "about_professional_trainins_text_2"
-msgstr "Oral Placement Therapy (OPT)-Level 1"
+msgstr "Fluency Plus Program (for School-Age Stuttering intervention)"
+
+msgid "about_professional_trainins_text_3"
+msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) - Introduction"
+
+msgid "about_professional_trainins_text_4"
+msgstr "Oral Placement Therapy (OPT) - Level 1"
+
 
 # contact.html ----------
 msgid "contact_header"
@@ -142,16 +182,31 @@ msgid "contact_text_1"
 msgstr "If you have any questions or would like more information, please feel free to reach out via email:"
 
 msgid "contact_form_header"
-msgstr "Contact Us:"
+msgstr "Contact Us"
 
 msgid "contact_form_label_1"
-msgstr "Name:"
+msgstr "Name*"
 
 msgid "contact_form_label_2"
-msgstr "Email:"
+msgstr "Email*"
 
 msgid "contact_form_label_3"
-msgstr "Message:"
+msgstr "Message*"
+
+msgid "contact_form_label_4"
+msgstr "Phone*"
+
+msgid "contact_form_service_question"
+msgstr "What type of service are you looking for?*"
+
+msgid "contact_form_service_option_1"
+msgstr "Consultation"
+
+msgid "contact_form_service_option_2"
+msgstr "Speech Therapy Services"
+
+msgid "contact_form_service_option_3"
+msgstr "Online Cantonese Class"
 
 msgid "contact_form_send_button_text"
 msgstr "Send"
@@ -160,48 +215,104 @@ msgstr "Send"
 msgid "speech_therapy_header"
 msgstr "Speech Therapy Services"
 
-msgid "speech_therapy_assessment_header_1"
-msgstr "60-minute assessment session"
-
-msgid "speech_therapy_assessment_header_2"
-msgstr "(includes a 10-minute debrief)"
-
-msgid "speech_therapy_assessment_text_1"
-msgstr "To conduct an assessment for language comprehension, expressive language, speech sounds, social communication, and higher-order thinking"
-
-msgid "speech_therapy_assessment_text_2"
-msgstr "To review the assessment results and provide tailored recommendations"
-
-msgid "speech_therapy_assessment_text_3"
-msgstr "Assessment summary and goals sheet can be included upon request"
-
-msgid "speech_therapy_session_header_1"
-msgstr "60-minute therapy sessions and parent coaching"
-
-msgid "speech_therapy_session_header_2"
-msgstr "(includes a 10-minute debrief)"
-
 msgid "speech_therapy_text_1"
 msgstr "Speech Therapy Services (regulated service) are available in English and Cantonese. I can also communicate with parents through Mandarin. Sessions are available online or via home visits."
 
+msgid "speech_therapy_header_2"
+msgstr "Consultation"
+
 msgid "speech_therapy_text_2"
 msgstr "If you have concerns about your child’s language and communication development, you are welcome to contact me for a free 10-minute initial consultation."
+
+msgid "speech_therapy_header_3"
+msgstr "Assessment"
+
+msgid "speech_therapy_text_3"
+msgstr "$200/ 1 hour (with assessment summary and goals sheet)"
+
+msgid "speech_therapy_text_4"
+msgstr "A comprehensive assessment of language comprehension, expressive language, speech sounds, social communication, and fluency, with individualized goals tailored to each client’s needs."
+
+msgid "speech_therapy_header_4"
+msgstr "Treatments"
+
+msgid "speech_therapy_text_5"
+msgstr "$140/ 45 mins"
+
+msgid "speech_therapy_text_6"
+msgstr "Tailored therapy designed to support each client’s communication goals using functional, evidence-based approaches."
+
+msgid "speech_therapy_text_7"
+msgstr "Please note: A $20 travel fee applies to all in-home services."
 
 # cantonese.html ----------
 msgid "cantonese_header"
 msgstr "Online Cantonese Class"
 
+msgid "cantonese_header_2"
+msgstr "Lesson"
+
 msgid "cantonese_text_1"
-msgstr "45-minute or 60-minute lessons (includes a 5-minute debrief)"
+msgstr "$45/ 45 mins"
 
 msgid "cantonese_text_2"
-msgstr "1:1/small group setting"
+msgstr "$60/ 1 hour"
 
 msgid "cantonese_text_3"
-msgstr "Theme-based activities/games,songs, stories, functional speech, and more"
+msgstr "1:1/small group setting"
 
 msgid "cantonese_text_4"
+msgstr "Theme-based activities/games,songs, stories, functional speech, and more"
+
+msgid "cantonese_text_5"
 msgstr "Services are available in Cantonese (supplement in English and Mandarin)"
 
 msgid "cantonese_footnote"
 msgstr "*Online Cantonese class is a non-regulated service. It does not involve any therapeutic assessment or treatment. This service is separate from speech-language services and is intended for learners of Cantonese for cultural, academic, or personal enrichment."
+
+# lidcombe.html ----------
+msgid "stuttering_program_header"
+msgstr "Stuttering Program"
+
+msgid "lidcombe_header"
+msgstr "Lidcombe Program"
+
+msgid "lidcombe_text_1"
+msgstr "Parents are trained by a speech-language pathologist to deliver specific verbal feedback in everyday situations to reinforce fluent speech and gently acknowledge stuttering."
+
+msgid "lidcombe_text_2"
+msgstr "Research-based"
+
+msgid "lidcombe_text_3"
+msgstr "The Program was developed by the Australian Stuttering Research Centre"
+
+msgid "lidcombe_text_4"
+msgstr "Uses real-life conversations"
+
+msgid "lidcombe_text_5"
+msgstr "During normal daily activities"
+
+msgid "lidcombe_text_6"
+msgstr "Parent-led. clinician-supervised and child-friendly"
+
+# fluency.html ----------
+msgid "fluency_header"
+msgstr "Fluency Plus Program"
+
+msgid "fluency_text_1"
+msgstr "Using fluency-enhancing and cognitive restructuring techniques to improve fluency and reduce anxiety/negative thoughts related to speaking."
+
+msgid "fluency_text_2"
+msgstr "Research-based"
+
+msgid "fluency_text_3"
+msgstr "The Program was developed by the Speech & Stuttering Institute in Canada"
+
+msgid "fluency_text_4"
+msgstr "Clinician‑delivered"
+
+msgid "fluency_text_5"
+msgstr "Supports everyday speaking situations"
+
+msgid "fluency_text_6"
+msgstr "Improves fluency and communication confidence"

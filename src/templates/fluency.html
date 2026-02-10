@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body class="service-page fluency-page">
+    {% with current_page="fluency.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main class="two-columns">
+      <div class="left">
+        <h1>{{ gettext("stuttering_program_header") }}</h1>
+        <section>
+          <img
+            class="poster"
+            src="{{ gettext("fluency_poster_link") }}"
+            alt="{{ gettext("fluency_poster_alt_text") }}" loading="lazy" />
+        </section>
+      </div>
+      <div class="right">
+        <section>
+          <h2>{{ gettext("fluency_header") }}</h2>
+          {{ gettext("fluency_text_1") }}
+          <ul>
+            <li>{{ gettext("fluency_text_2") }}<br />{{ gettext("fluency_text_3") }}</li>
+            <li>{{ gettext("fluency_text_4") }}</li>
+            <li>{{ gettext("fluency_text_5") }}</li>
+            <li>{{ gettext("fluency_text_6") }}</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>

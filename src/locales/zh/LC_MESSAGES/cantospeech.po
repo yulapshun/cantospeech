@@ -22,6 +22,12 @@ msgstr "/zh/speech_therapy.html"
 msgid "cantonese_link"
 msgstr "/zh/cantonese.html"
 
+msgid "lidcombe_link"
+msgstr "/zh/lidcombe.html"
+
+msgid "fluency_link"
+msgstr "/zh/fluency.html"
+
 msgid "resources_link"
 msgstr "/zh/resources.html"
 
@@ -38,7 +44,16 @@ msgid "speech_therapy_poster_link"
 msgstr "/images/poster_speech_therapy_zh.png"
 
 msgid "cantonese_poster_link"
-msgstr "/images/poster_cantonese_class_zh.png"
+msgstr "/images/poster_cantonese_zh.png"
+
+msgid "lidcombe_poster_link"
+msgstr "/images/poster_lidcombe_zh.png"
+
+msgid "fluency_poster_link"
+msgstr "/images/poster_fluency_zh.png"
+
+msgid "book_an_appointment"
+msgstr "立即預約"
 
 # Header ----------
 msgid "cantospeech_logo_alt_text"
@@ -62,6 +77,12 @@ msgstr "言語評估和治療"
 msgid "cantonese_text"
 msgstr "線上廣東話課程"
 
+msgid "lidcombe_text"
+msgstr "Lidcombe Program"
+
+msgid "fluency_text"
+msgstr "Fluency Plus Program"
+
 msgid "resources_text"
 msgstr "資源"
 
@@ -77,35 +98,47 @@ msgstr "© 2026 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
-msgstr "Grow With CantoSpeech 🌱"
+msgstr "Grow With CantoSpeech"
 
-msgid "index_text"
-msgstr "無論你是正在建立溝通能力的孩子，還是正在探索廣東話的人，我都希望能陪伴你的學習旅程。讓我們一起玩、說話、成長。"
+msgid "index_text_1"
+msgstr "每個人都有獨特的聲音。每個人都有能力成長。"
+
+msgid "index_text_2"
+msgstr "無論你想提升孩子的語言和溝通能力，還是想學習廣東話，我都希望能陪伴你走過這段路。讓我們一起玩、說話、成長。"
 
 msgid "speech_therapy_link_aria_label"
-msgstr "Link to speech therapy description"
+msgstr "Link to speech therapy"
 
 msgid "speech_therapy_poster_alt_text"
 msgstr "Speech therapy poster"
 
 msgid "cantonese_link_aria_label"
-msgstr "Link to cantonese class description"
+msgstr "Link to cantonese class"
 
 msgid "cantonese_poster_alt_text"
-msgstr"Cantonese class poster"
+msgstr "Cantonese class poster"
+
+msgid "lidcombe_link_aria_label"
+msgstr "Link to Lidcombe program"
+
+msgid "lidcombe_poster_alt_text"
+msgstr "Lidcombe program poster"
+
+msgid "fluency_link_aria_label"
+msgstr "Link to fluency program"
+
+msgid "fluency_poster_alt_text"
+msgstr "Fluency program poster"
 
 # about.html ----------
 msgid "about_header"
 msgstr "關於"
 
 msgid "about_text_1"
-msgstr "Hello, 我叫Amanda。我曾於香港社福機構任言語治療師，現於加拿大以獨立言語治療師 (Speech-Language Pathologist (SLP, Reg. CASLPO) 形式執業，提供上門及視像言語治療服務（受監管服務)。"
+msgstr "Hello, 我叫Amanda。我曾於香港社福機構任言語治療師，現於加拿大以獨立言語治療師 (Speech-Language Pathologist (SLP, Reg. CASLPO) 形式執業，提供上門及視像言語治療服務（受監管服務），特別支援有自閉症譜系障礙、發音障礙或說話不流暢的孩子。"
 
 msgid "about_text_2"
 msgstr "同時，我亦提供線上廣東話課程（非受監管服務），適合所有有意學習廣東話的人士。"
-
-msgid "about_text_3"
-msgstr " "
 
 msgid "about_professional_registrations_header"
 msgstr "註冊資格"
@@ -129,10 +162,16 @@ msgid "about_professional_training_header"
 msgstr "持續進修"
 
 msgid "about_professional_trainins_text_1"
-msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) -Introduction"
+msgstr "Lidcombe Program (for Early Stuttering intervention)"
 
 msgid "about_professional_trainins_text_2"
-msgstr "Oral Placement Therapy (OPT)-Level 1"
+msgstr "Fluency Plus Program (for School-Age Stuttering intervention)"
+
+msgid "about_professional_trainins_text_3"
+msgstr "Prompts for Restructuring Oral Muscular Phonetic Targets (PROMPT) - Introduction"
+
+msgid "about_professional_trainins_text_4"
+msgstr "Oral Placement Therapy (OPT) - Level 1"
 
 # contact.html ----------
 msgid "contact_header"
@@ -145,13 +184,28 @@ msgid "contact_form_header"
 msgstr "聯絡我們"
 
 msgid "contact_form_label_1"
-msgstr "姓名："
+msgstr "姓名*"
 
 msgid "contact_form_label_2"
-msgstr "電郵："
+msgstr "電郵*"
 
 msgid "contact_form_label_3"
-msgstr "查詢內容："
+msgstr "訊息*"
+
+msgid "contact_form_label_4"
+msgstr "聯絡電話*"
+
+msgid "contact_form_service_question"
+msgstr "你想要哪一類的服務？*"
+
+msgid "contact_form_service_option_1"
+msgstr "咨詢"
+
+msgid "contact_form_service_option_2"
+msgstr "言語評估和治療"
+
+msgid "contact_form_service_option_3"
+msgstr "線上廣東話課程"
 
 msgid "contact_form_send_button_text"
 msgstr "傳送"
@@ -160,48 +214,104 @@ msgstr "傳送"
 msgid "speech_therapy_header"
 msgstr "言語評估和治療"
 
-msgid "speech_therapy_assessment_header_1"
-msgstr "60分鐘評估"
-
-msgid "speech_therapy_assessment_header_2"
-msgstr "（包括10分鐘家長咨詢）"
-
-msgid "speech_therapy_assessment_text_1"
-msgstr "與孩子進行評估（包括：語言理解、語言表達、咬字發音、社交溝通及高階思考等等）"
-
-msgid "speech_therapy_assessment_text_2"
-msgstr "完成評估後，我會解釋評估結果，並與家長一同訂立治療方案"
-
-msgid "speech_therapy_assessment_text_3"
-msgstr "如有需要，可提供評估摘要及學習目標表"
-
-msgid "speech_therapy_session_header_1"
-msgstr "60分鐘治療課程與家長指導"
-
-msgid "speech_therapy_session_header_2"
-msgstr "（包括10分鐘家長咨詢）"
-
 msgid "speech_therapy_text_1"
 msgstr "評估及治療服務（受監管服務）以英語或廣東話進行 。我亦能以普通話跟家長溝通。可視像或上門。"
 
+msgid "speech_therapy_header_2"
+msgstr "咨詢"
+
 msgid "speech_therapy_text_2"
 msgstr "若你對孩子的語言/溝通能力發展有疑問，歡迎聯絡我作10分鐘免費諮詢。"
+
+msgid "speech_therapy_header_3"
+msgstr "評估"
+
+msgid "speech_therapy_text_3"
+msgstr "$200/ 1小時 (包含評估簡報及學習目標表）"
+
+msgid "speech_therapy_text_4"
+msgstr "全面評估孩子的語言理解、語言表達、咬字發音、社交溝通及說話流暢度，並訂立目標。"
+
+msgid "speech_therapy_header_4"
+msgstr "治療"
+
+msgid "speech_therapy_text_5"
+msgstr "$140/ 45 分鐘"
+
+msgid "speech_therapy_text_6"
+msgstr " "
+
+msgid "speech_therapy_text_7"
+msgstr "請注意：所有上門服務將收取 $20 的交通費。"
 
 # cantonese.html ----------
 msgid "cantonese_header"
 msgstr "線上廣東話課程"
 
+msgid "cantonese_header_2"
+msgstr "課程"
+
 msgid "cantonese_text_1"
-msgstr "45 或60分鐘課程（包括5分鐘家長咨詢）"
+msgstr "$45/ 45 分鐘"
 
 msgid "cantonese_text_2"
-msgstr "一對一/小組教學"
+msgstr "$60/ 1 小時"
 
 msgid "cantonese_text_3"
-msgstr "主題活動/遊戲、兒歌/歌曲、故事、日常對話等互動"
+msgstr "一對一/小組教學"
 
 msgid "cantonese_text_4"
+msgstr "主題活動/遊戲、兒歌/歌曲、故事、日常對話等互動"
+
+msgid "cantonese_text_5"
 msgstr "課程以廣東話為主（可輔以英語及普通話）"
 
 msgid "cantonese_footnote"
 msgstr "*線上廣東話課程屬於非受監管服務，不涉及任何治療性評估或治療。此服務與言語治療服務分開，旨在為學習者提供廣東話教學，以作文化、學術或個人興趣之用途。"
+
+# lidcombe.html ----------
+msgid "stuttering_program_header"
+msgstr "口吃課程"
+
+msgid "lidcombe_header"
+msgstr "Lidcombe Program"
+
+msgid "lidcombe_text_1"
+msgstr "父母在言語治療師指導下，學會如何在日常生活中測量幼兒口吃的嚴重程度及透過遊戲正面回應幼兒的口吃，幫助幼兒說話更流暢。"
+
+msgid "lidcombe_text_2"
+msgstr "研究支持"
+
+msgid "lidcombe_text_3"
+msgstr "本計劃由Australian Stuttering Research Centre 開發"
+
+msgid "lidcombe_text_4"
+msgstr "真實生活對話練習"
+
+msgid "lidcombe_text_5"
+msgstr "日常活動中進行"
+
+msgid "lidcombe_text_6"
+msgstr "家長主導，治療師監督，親子友善"
+
+# fluency.html ----------
+msgid "fluency_header"
+msgstr "Fluency Plus Program"
+
+msgid "fluency_text_1"
+msgstr "透過運用流暢度提升技巧及認知重塑策略，幫助學齡兒童和成人說話更順暢，同時減少說話時的焦慮與負面想法，提升溝通自信。"
+
+msgid "fluency_text_2"
+msgstr "研究支持"
+
+msgid "fluency_text_3"
+msgstr "本計劃由Australian Stuttering Research Centre 開發"
+
+msgid "fluency_text_4"
+msgstr "由治療師執行"
+
+msgid "fluency_text_5"
+msgstr "支援日常說話情境"
+
+msgid "fluency_text_6"
+msgstr "提升說話流暢度與溝通自信"

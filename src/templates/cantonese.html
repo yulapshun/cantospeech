@@ -4,38 +4,41 @@
     <title>{{ gettext("title") }}</title>
     {% include 'head_common.html' %}
   </head>
-  <body>
+  <body class="service-page cantonese-page">
     {% with current_page="cantonese.html" %}
       {% include 'header.html' %}
     {% endwith %}
-    <main>
-      <h1>{{ gettext("cantonese_header") }}</h1>
-      <section>
-        <div class="top">
-          <img src="{{ gettext("cantonese_poster_link") }}" alt="Cantonese class poster" loading="lazy" />
-          <div>
-            <ul>
-              <li>
-                {{ gettext("cantonese_text_1") }}
-              </li>
-              <li>
-                {{ gettext("cantonese_text_2") }}
-              </li>
-              <li>
-                {{ gettext("cantonese_text_3") }}
-              </li>
-              <li>
-                {{ gettext("cantonese_text_4") }}
-              </li>
-            </ul>
-            <b class="desktop-only"><a class="button-link" href="https://forms.gle/yxB4jq5rDB6FMMKh8">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
+    <main class="two-columns">
+      <div class="left">
+        <h1>{{ gettext("cantonese_header") }}</h1>
+        <section>
+          <img
+            class="poster"
+            src="{{ gettext("cantonese_poster_link") }}"
+            alt="{{ gettext("cantonese_poster_alt_text") }}" loading="lazy" />
+          <p class="footnote">
+            {{ gettext("cantonese_footnote") }}
+          </p>
+        </section>
+      </div>
+      <div class="right">
+        <section>
+          <h2>{{ gettext("cantonese_header_2") }}</h2>
+          <ul>
+            <li><strong>{{ gettext("cantonese_text_1") }}</strong></li>
+            <li><strong>{{ gettext("cantonese_text_2") }}</strong></li>
+            <li>{{ gettext("cantonese_text_3") }}</li>
+            <li>{{ gettext("cantonese_text_4") }}</li>
+            <li>{{ gettext("cantonese_text_5") }}</li>
+          </ul>
+        </section>
+        <section>
+          <div class="button-container">
+            <div class="button-container-text"></div>
+            <a class="button-link appointment-btn" href="{{ gettext("contact_link") }}">{{ gettext("book_an_appointment") }}</a>
           </div>
-        </div>
-        <p class="footnote">
-          {{ gettext("cantonese_footnote") }}
-        </p>
-        <b class="mobile-only"><a class="button-link" href="https://forms.gle/yxB4jq5rDB6FMMKh8">{{ gettext("click_here") }}</a> {{ gettext("fill_form_text") }}</b>
-      </section>
+        </section>
+      </div>
     </main>
     {% include 'footer.html' %}
   </body>

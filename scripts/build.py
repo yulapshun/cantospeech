@@ -13,7 +13,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 LOCALES_DIR = os.path.join(os.path.dirname(__file__),"../src/locales")
 TEMPLATE_DIRS = [os.path.join(os.path.dirname(__file__), dir)
                  for dir in ("../src/templates", "../src/templates/components")]
-TEMPLATE_LIST = ["index.html", "about.html", "contact.html", "resources.html", "speech_therapy.html", "cantonese.html"]
+TEMPLATE_LIST = ["index.html", "about.html", "contact.html", "resources.html", "speech_therapy.html", "cantonese.html",
+                 "lidcombe.html", "fluency.html"]
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "../docs")
 LANGUAGES = ["en", "zh"]
 DEFAULT_LANGUAGE = "en"
