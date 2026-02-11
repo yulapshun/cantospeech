@@ -283,7 +283,7 @@ msgid "lidcombe_text_2"
 msgstr "研究支持"
 
 msgid "lidcombe_text_3"
-msgstr "本計劃由Australian Stuttering Research Centre 開發"
+msgstr "本計劃由加拿大Speech & Stuttering Institute開發"
 
 msgid "lidcombe_text_4"
 msgstr "真實生活對話練習"
