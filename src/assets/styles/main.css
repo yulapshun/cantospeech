@@ -43,6 +43,11 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  margin-block: 0;
+  color: var(--main-color);
+}
+
 .mobile-only {
   display: revert;
 }

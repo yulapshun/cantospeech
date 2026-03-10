@@ -66,7 +66,7 @@ msgid "close_menu_button_aria_label"
 msgstr "Close menu button"
 
 msgid "about_text"
-msgstr "About"
+msgstr "About Me"
 
 msgid "services_text"
 msgstr "Services"
@@ -228,21 +228,27 @@ msgid "speech_therapy_header_3"
 msgstr "Assessment"
 
 msgid "speech_therapy_text_3"
-msgstr "$200/ 1 hour (with assessment summary and goals sheet)"
+msgstr "$230 (1 hour)"
 
 msgid "speech_therapy_text_4"
-msgstr "A comprehensive assessment of language comprehension, expressive language, speech sounds, social communication, and fluency, with individualized goals tailored to each client’s needs."
+msgstr "60-minute appointment &  assessment summary with goals sheet"
 
 msgid "speech_therapy_header_4"
 msgstr "Treatments"
 
 msgid "speech_therapy_text_5"
-msgstr "$140/ 45 mins"
+msgstr "$150 (1 hour)"
 
 msgid "speech_therapy_text_6"
-msgstr "Tailored therapy designed to support each client’s communication goals using functional, evidence-based approaches."
+msgstr "50-minute session & 5-10 min communication with caregiver"
 
 msgid "speech_therapy_text_7"
+msgstr "$113 (45 minutes)"
+
+msgid "speech_therapy_text_8"
+msgstr "35-minute session & 5-10 min communication with caregiver"
+
+msgid "speech_therapy_text_9"
 msgstr "Please note: A $20 travel fee applies to all in-home services."
 
 # cantonese.html ----------

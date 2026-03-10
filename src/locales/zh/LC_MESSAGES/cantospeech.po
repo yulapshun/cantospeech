@@ -227,21 +227,27 @@ msgid "speech_therapy_header_3"
 msgstr "評估"
 
 msgid "speech_therapy_text_3"
-msgstr "$200/ 1小時 (包含評估簡報及學習目標表）"
+msgstr "$230 (1小時)"
 
 msgid "speech_therapy_text_4"
-msgstr "全面評估孩子的語言理解、語言表達、咬字發音、社交溝通及說話流暢度，並訂立目標。"
+msgstr "60分鐘課堂 & 評估簡報及學習目標表"
 
 msgid "speech_therapy_header_4"
 msgstr "治療"
 
 msgid "speech_therapy_text_5"
-msgstr "$140/ 45 分鐘"
+msgstr "$150 (1小時)"
 
 msgid "speech_therapy_text_6"
-msgstr " "
+msgstr "50分鐘課堂 & 5-10 min 與家長溝通"
 
 msgid "speech_therapy_text_7"
+msgstr "$113 (45分鐘)"
+
+msgid "speech_therapy_text_8"
+msgstr "35分鐘課堂 & 5-10 min 與家長溝通"
+
+msgid "speech_therapy_text_9"
 msgstr "請注意：所有上門服務將收取 $20 的交通費。"
 
 # cantonese.html ----------
