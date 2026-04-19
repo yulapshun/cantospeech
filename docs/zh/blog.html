@@ -14,9 +14,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
 <script src="/scripts/main.js"></script>
-    <script src="/scripts/contact.js"></script>
   </head>
-  <body class="contact-page">
+  <body class="blog-page">
     
       
 <nav>
@@ -69,8 +68,8 @@
             </svg>
           </a>
           <ul>
-            <li><a href="/en/contact.html ">English</a></li>
-            <li><a href="/zh/contact.html">中文</a></li>
+            <li><a href="/en/blog.html ">English</a></li>
+            <li><a href="/zh/blog.html">中文</a></li>
           </ul>
         </li>
       </ul>
@@ -79,62 +78,13 @@
 </nav>
     
     <main>
-      <h1>聯絡我們</h1>
-      <section>
-        <p>
-          如有任何問題或想了解更多資訊，歡迎透過以下電郵聯絡我們：
-          <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
-        </p>
-      </section>
-      <section class="contact-form-section">
-        <form
-          id="contactForm"
-          method="POST"
-          action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
-          <div class="field-group">
-            <div class="field">
-              <label for="name">姓名*</label>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="姓名*" required />
-            </div>
-            <div class="field">
-              <label for="email">電郵*</label>
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="電郵*" required />
-            </div>
-          </div>
-          <div class="field-group">
-            <div class="field">
-              <label for="phone">聯絡電話*</label>
-              <input id="phone" name="phone" type="phone" autocomplete="phone" placeholder="聯絡電話*" required />
-            </div>
-          </div>
-          <div class="field-group">
-            <fieldset>
-              <legend>你想要哪一類的服務？*</legend>
-              <span>
-                <input type="radio" id="consultation" name="service" value="Consultation" />
-                <label for="consultation">咨詢</label>
-              </span>
-              <span>
-                <input type="radio" id="speech_therapy" name="service" value="Speech Therapy" />
-                <label for="speech_therapy" >言語評估和治療</label>
-              </span>
-              <span>
-                <input type="radio" id="cantonese" name="service" value="Cantonese Class" />
-                <label for="cantonese">線上廣東話課程</label>
-              </span>
-            </fieldset>
-          </div>
-          <div class="field-group">
-            <div class="field">
-              <label for="message">訊息*</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-          </div>
-          <button type="submit">傳送</button>
-          <div class="form-submit-status"></div>
-        </form>
-        <img aria-hidden="true" class="logo" src="/images/logo_base.svg" />
-      </section>
+      <h1>文章</h1>
+      <div class="blog-list">
+        <div class="blog-list-item">
+          <a class="blog-list-item-title" href="/zh/blog/sample.html">Sample title</a>
+          <div class="blog-list-item-content">sample content</div>
+        </div>
+      </div>
     </main>
     <footer>
   © 2026 CantoSpeech. All Rights Reserved

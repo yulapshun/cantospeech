@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body class="blog-page">
+    {% with current_page="blog/sample.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>Sample</h1>
+      <div class="blog-post-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat augue at ultricies rutrum. Suspendisse convallis condimentum venenatis. Duis sed orci vel turpis congue malesuada. Nam sagittis blandit dolor, et porta massa dapibus non. Donec pellentesque turpis quis metus tincidunt, sollicitudin accumsan eros pretium. Vestibulum aliquam at quam id pretium. Vivamus euismod turpis nulla, id faucibus nisi porttitor ut. Pellentesque congue feugiat mauris vel semper. Fusce egestas facilisis placerat. Sed congue dolor augue, et viverra turpis placerat sed. Ut laoreet, ligula in bibendum luctus, sem nunc pulvinar arcu, ac gravida lectus erat et ligula. Pellentesque tempor, odio id porta vulputate, massa lorem molestie libero, id aliquam arcu metus in nibh. Pellentesque hendrerit, libero non viverra tincidunt, nulla odio interdum sem, ac luctus est nunc at metus.
+        </p>
+
+        <p>
+          Pellentesque malesuada ultricies enim ut semper. Vivamus vitae ipsum id mi tempus placerat id ut arcu. Sed tincidunt justo quam, id tristique elit vehicula eget. Morbi quam enim, luctus eget risus vitae, pharetra dictum erat. Proin ut fringilla arcu. Vivamus rutrum, neque sed blandit tincidunt, nisi metus fringilla ex, at ullamcorper justo ante at nisl. Nunc commodo quam id venenatis imperdiet. Duis consequat bibendum lectus vitae aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas quis suscipit odio. Donec sed elementum lorem. Sed vestibulum tellus sapien, a facilisis enim facilisis sit amet. In vitae feugiat magna, eget ultrices ante. Nam scelerisque nulla vel purus fringilla, in placerat quam convallis. Curabitur quis varius augue, non gravida metus. Quisque non velit quam.
+        </p>
+
+        <p>
+          Quisque bibendum congue commodo. Curabitur aliquet malesuada diam eget varius. Fusce et vestibulum dui. Aenean ultricies rutrum tincidunt. In ac velit iaculis, congue augue non, eleifend turpis. Vivamus gravida finibus erat. In hac habitasse platea dictumst. Aliquam arcu diam, sagittis sed dolor malesuada, semper porttitor massa. Fusce euismod erat in velit maximus, id vulputate nunc mattis. In scelerisque lacinia sapien sit amet sollicitudin. Donec non neque sit amet mi interdum feugiat.
+        </p>
+
+        <p>
+          Vestibulum sit amet dolor eu massa ornare viverra et a nunc. Mauris sit amet tincidunt dolor. Sed ac felis ex. Nunc urna neque, eleifend at pharetra eu, ultrices quis lectus. Vestibulum placerat sem eget sapien interdum congue. Cras sed dolor euismod, volutpat nisl a, tincidunt turpis. Donec sit amet dictum turpis. In suscipit dapibus venenatis. Integer posuere elit sed eros elementum, nec dapibus nunc convallis.
+        </p>
+
+        <p>
+          Donec blandit nibh turpis. Vestibulum ut rhoncus erat. Quisque et neque nunc. Nullam sollicitudin, leo a facilisis imperdiet, dolor orci tincidunt justo, vel semper diam justo eu sapien. Vestibulum nulla nunc, gravida at aliquam nec, interdum ut nibh. Sed facilisis felis non magna elementum, non sodales libero blandit. Vestibulum et lectus ac nunc bibendum sodales. Pellentesque nec enim lobortis, lobortis orci eu, rutrum felis.
+        </p>
+      </div>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>

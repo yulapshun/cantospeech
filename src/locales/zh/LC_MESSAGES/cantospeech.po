@@ -4,6 +4,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 # General ----------
+msgid "lang"
+msgstr "zh"
+
 msgid "title"
 msgstr "CantoSpeech"
 
@@ -33,6 +36,9 @@ msgstr "/zh/resources.html"
 
 msgid "contact_link"
 msgstr "/zh/contact.html"
+
+msgid "blog_link"
+msgstr "/zh/blog.html"
 
 msgid "click_here"
 msgstr "按此"
@@ -88,6 +94,9 @@ msgstr "資源"
 
 msgid "contact_text"
 msgstr "聯絡我們"
+
+msgid "blog_text"
+msgstr "文章"
 
 msgid "languages"
 msgstr "語言"
@@ -321,3 +330,7 @@ msgstr "支援日常說話情境"
 
 msgid "fluency_text_6"
 msgstr "提升說話流暢度與溝通自信"
+
+# blog.html --------
+msgid "blog_header"
+msgstr "文章"

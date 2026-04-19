@@ -454,6 +454,12 @@ footer {
 }
 /* ----- end service pages ----- */
 
+/* ----- start blog page ----- */
+.blog-page .blog-list .blog-list-item {
+  border: 1px solid var(--text-color-grey);
+}
+/* ----- end blog pages ----- */
+
 @media (min-width: 576px) {
   .two-columns {
     flex-direction: row;

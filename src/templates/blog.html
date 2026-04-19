@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ gettext("lang_code") }}">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body class="blog-page">
+    {% with current_page="blog.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>{{gettext("blog_header") }}</h1>
+      <div class="blog-list">
+        <div class="blog-list-item">
+          <a class="blog-list-item-title" href="/{{gettext('lang') }}/blog/sample.html">Sample title</a>
+          <div class="blog-list-item-content">sample content</div>
+        </div>
+      </div>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>

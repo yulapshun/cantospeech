@@ -7,6 +7,9 @@ msgstr ""
 msgid "title"
 msgstr "CantoSpeech"
 
+msgid "lang"
+msgstr "en"
+
 msgid "lang_code"
 msgstr "en"
 
@@ -33,6 +36,9 @@ msgstr "/en/resources.html"
 
 msgid "contact_link"
 msgstr "/en/contact.html"
+
+msgid "blog_link"
+msgstr "/en/blog.html"
 
 msgid "click_here"
 msgstr "Click here"
@@ -88,6 +94,9 @@ msgstr "Resources"
 
 msgid "contact_text"
 msgstr "Contact"
+
+msgid "blog_text"
+msgstr "Blog"
 
 msgid "languages"
 msgstr "Languages"
@@ -322,3 +331,7 @@ msgstr "Supports everyday speaking situations"
 
 msgid "fluency_text_6"
 msgstr "Improves fluency and communication confidence"
+
+# blog.html --------
+msgid "blog_header"
+msgstr "Blog"
