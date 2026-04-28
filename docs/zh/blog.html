@@ -14,9 +14,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
 <script src="/scripts/main.js"></script>
-    <script src="/scripts/contact.js"></script>
   </head>
-  <body class="contact-page">
+  <body class="blog-page">
     
       
 <nav>
@@ -69,8 +68,8 @@
             </svg>
           </a>
           <ul>
-            <li><a href="/en/contact.html ">English</a></li>
-            <li><a href="/zh/contact.html">中文</a></li>
+            <li><a href="/en/blog.html ">English</a></li>
+            <li><a href="/zh/blog.html">中文</a></li>
           </ul>
         </li>
       </ul>
@@ -79,62 +78,29 @@
 </nav>
     
     <main>
-      <h1>聯絡我們</h1>
-      <section>
-        <p>
-          如有任何問題或想了解更多資訊，歡迎透過以下電郵聯絡我們：
-          <a href="mailto:cantospeech@gmail.com">cantospeech@gmail.com</a>
-        </p>
-      </section>
-      <section class="contact-form-section">
-        <form
-          id="contactForm"
-          method="POST"
-          action="https://script.google.com/macros/s/AKfycbxGKItLe3pVA8Jquv7l6dNGJroPHb3zJJMIEy3pMXxvXGtarFALuQ1qz8aPMdJ3hStNKA/exec">
-          <div class="field-group">
-            <div class="field">
-              <label for="name">姓名*</label>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="姓名*" required />
-            </div>
-            <div class="field">
-              <label for="email">電郵*</label>
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="電郵*" required />
-            </div>
+      <h1>文章</h1>
+      <div class="blog-list">
+        <div class="blog-list-item">
+          <a class="blog-list-item-title" href="/zh/blog/識行先識指.html">識行先識指？</a>
+          <div class="blog-list-item-content">
+            最近看到一篇有趣的文章。2025年有一個在日本的小型observational study發現：<br />
+            當兒童開始步行後（不是跟年紀直接相關），社交性指物(soical pointing)的次數會增加。<br />
+            *社交性指物(soical pointing)是指涉及「人－人－物」之間關係的三方互動。例如：兒童先看父母，然後指向餅乾，再看父母的回應。
           </div>
-          <div class="field-group">
-            <div class="field">
-              <label for="phone">聯絡電話*</label>
-              <input id="phone" name="phone" type="phone" autocomplete="phone" placeholder="聯絡電話*" required />
-            </div>
+        </div>
+        <div class="blog-list-item">
+          <a class="blog-list-item-title" href="/zh/blog/怎麼學懂手指指.html">怎麼學懂手指指？</a>
+          <div class="blog-list-item-content">
+既然知道兒童在嬰兒時運用手勢的能力可預測其日後的語言發展，那麼應如何促進兒童運用手勢的能力呢？當然，最直接就是家長在日常生活中示範如何運用手勢。別小看這個簡單的方法，因為這也是經過研究支持的。
           </div>
-          <div class="field-group">
-            <fieldset>
-              <legend>你想要哪一類的服務？*</legend>
-              <span>
-                <input type="radio" id="consultation" name="service" value="Consultation" />
-                <label for="consultation">咨詢</label>
-              </span>
-              <span>
-                <input type="radio" id="speech_therapy" name="service" value="Speech Therapy" />
-                <label for="speech_therapy" >言語評估和治療</label>
-              </span>
-              <span>
-                <input type="radio" id="cantonese" name="service" value="Cantonese Class" />
-                <label for="cantonese">線上廣東話課程</label>
-              </span>
-            </fieldset>
+        </div>
+        <div class="blog-list-item">
+          <a class="blog-list-item-title" href="/zh/blog/手指指重要嗎.html">手指指，重要嗎？</a>
+          <div class="blog-list-item-content">
+有想過兒童五歲時口若懸河的表現可能是源自於嬰兒時的手勢及象徵性動作嗎？通常家長和老師覺得說話=溝通。但原來運用手勢亦是一種很重要的溝通能力，不論是一般發展中的兒童，還是有語言遲緩/語言障礙/自閉症的兒童。
           </div>
-          <div class="field-group">
-            <div class="field">
-              <label for="message">訊息*</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-          </div>
-          <button type="submit">傳送</button>
-          <div class="form-submit-status"></div>
-        </form>
-        <img aria-hidden="true" class="logo" src="/images/logo_base.svg" />
-      </section>
+        </div>
+      </div>
     </main>
     <footer>
   © 2026 CantoSpeech. All Rights Reserved

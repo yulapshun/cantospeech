@@ -454,6 +454,27 @@ footer {
 }
 /* ----- end service pages ----- */
 
+/* ----- start blog page ----- */
+.blog-page h1, .blog-page h2 {
+  text-transform: none;
+}
+
+.blog-page .blog-list .blog-list-item {
+  margin-bottom: var(--default-margin);
+  padding: calc(var(--default-margin) / 2);
+  border: 1px solid var(--text-color-grey);
+}
+
+.blog-page .blog-list .blog-list-item .blog-list-item-title {
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.blog-page .blog-list .blog-list-item .blog-list-item-content {
+
+}
+/* ----- end blog pages ----- */
+
 @media (min-width: 576px) {
   .two-columns {
     flex-direction: row;
