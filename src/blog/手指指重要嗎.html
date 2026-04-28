@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body class="blog-page">
+    {% with current_page="blog/手指指重要嗎.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>手指指，重要嗎？</h1>
+      <div class="blog-post-content">
+        <p>
+有想過兒童五歲時口若懸河的表現可能是源自於嬰兒時的手勢及象徵性動作嗎？通常家長和老師覺得說話=溝通。但原來運用手勢亦是一種很重要的溝通能力，不論是一般發展中的兒童，還是有語言遲緩/語言障礙/自閉症的兒童。
+        </p>
+
+        <p>
+          有研究(Morin-Lessard et al., 2021)追蹤近2000名學童從嬰兒到幼稚園的語言溝通發展。根據家長報告，研究人員發現兒童1歲時運用手勢的能力（例如用手指指物、點頭表示「是」）可直接預測他們五歲時的語言溝通能力。此外，兒童使用象徵性動作的能力（例如：用水樽餵動物喝水）亦可間接預測五歲時的溝通能力及兩歲時的詞彙發展。
+*嬰兒期的手勢能預測五歲時的語言發展，不代表運用手勢是導致說話與否的成因 。
+        </p>
+
+        <h2>那麼運用手勢的能力在有自閉症的兒童身上會有不同嗎？</h2>
+
+        <p>
+          有研究(Talbott et al., 2020)檢視了42名有自閉症的兒童的手勢發展，發現：
+        </p>
+        <ol>
+          <li>一般發展的兒童在說出第一個字前多先用手指指物，但很多有自閉症的兒童是在說出第一個字後才開始用手指指物。</li>
+          <li>不論是一般發展的兒童還是有自閉症的兒童，他們都是先將手勢與單字結合，後期才說出雙詞組合。</li>
+        </ol>
+        <p>* 手勢與單字在雙詞組合前出現，不代表教孩子結合手勢與單字就一定會說出雙詞組合</p>
+
+        <p>
+          但不論是怎樣，這些研究都是指向運用手勢是語言發展的重要一環。手指指，很重要！
+        </p>
+
+        <h2>Reference</h2>
+        <p>
+          Elizabeth Morin-Lessard, Rochelle F Hentges, Suzanne C Tough, Susan A Graham, Developmental Pathways Between Infant Gestures and Symbolic Actions, and Children’s Communicative Skills at Age 5: Findings From the All Our Families Pregnancy Cohort, Child Development, Volume 92, Issue 3, May/June 2021, Pages 799–810
+        </p>
+        <p>
+          Meagan R Talbott, Gregory S Young, Jeff Munson, Annette Estes, Laurie A Vismara, Sally J Rogers, The Developmental Sequence and Relations Between Gesture and Spoken Language in Toddlers With Autism Spectrum Disorder, Child Development, Volume 91, Issue 3, May/June 2020, Pages 743–753
+        </p>
+      </div>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>
