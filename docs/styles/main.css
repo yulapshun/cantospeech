@@ -484,6 +484,7 @@ footer {
 .blog-page .blog-list .blog-list-item .blog-list-item-title {
   text-decoration: none;
   font-size: 2em;
+  color: var(--main-color);
 }
 
 .blog-page .blog-post-content .header-image {
@@ -618,5 +619,6 @@ footer {
 
   .blog-page .blog-list .blog-list-item {
     flex-direction: row;
+    align-items: flex-start;
   }
 }
