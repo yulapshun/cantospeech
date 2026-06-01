@@ -56,6 +56,10 @@ h3 {
   display: none;
 }
 
+a {
+  color: var(--main-color);
+}
+
 .button-link, button {
   display: inline-block;
   height: 40px;
