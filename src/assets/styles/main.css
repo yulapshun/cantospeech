@@ -456,7 +456,7 @@ footer {
 
 /* ----- start blog page ----- */
 .blog-page {
-  --thumbnail-height: 250px;
+  --thumbnail-height: 280px;
 }
 
 .blog-page h1, .blog-page h2 {
@@ -486,6 +486,7 @@ footer {
 }
 
 .blog-page .blog-list .blog-list-item .blog-list-item-right .blog-list-item-content {
+  margin-top: calc(var(--default-margin) / 2);
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
@@ -625,7 +626,7 @@ footer {
   }
 
   .blog-page {
-    --thumbnail-height: 250px;
+    --thumbnail-height: 280px;
   }
 
   .blog-page .blog-list .blog-list-item {

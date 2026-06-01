@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ gettext("title") }}</title>
+    {% include 'head_common.html' %}
+  </head>
+  <body class="blog-page">
+    {% with current_page="blog/學詞彙除了聽還要說出來但要說多少次.html" %}
+      {% include 'header.html' %}
+    {% endwith %}
+    <main>
+      <h1>學詞彙，除了聽還要說出來，但要說多少次？</h1>
+      <div class="blog-post-content">
+        <img class="header-image" src="/images/學詞彙除了聽還要說出來但要說多少次.png" alt="學詞彙除了聽還要說出來但要說多少次" />
+        <p>
+          對於有語言障礙（language disorders）的兒童來說，學習新詞彙並不容易。有研究 (Calabrese et al., 2025) 將學習詞彙分為三個階段：<br />
+          <ol>
+            <li>
+              <b>初次接觸和記住詞彙</b>（initial encoding）
+            </li>
+            <li>
+              <b>鞏固詞彙</b>（consolidation，即轉移到長期記憶）
+            </li>
+            <li>
+              <b>再鞏固詞彙</b>（reconsolidation，即隨時間逐步加深理解）
+            </li>
+          </ol>
+        </p>
+
+        <p>
+          研究發現，兒童學習新詞彙時，最困難的是第一階段。因此，讓兒童大量、重複地接觸新詞彙非常重要。<br />
+          前文曾提及，這個「神奇數字」大約是<b>接觸新詞彙 36 次</b>。
+        </p>
+
+        <p>
+          接著，第二階段是<b>鞏固詞彙</b>。當孩子能<b>反覆成功把學過的詞彙說出來（successful retrieval practice）</b>時，可能有助於把新學習的詞彙轉移到長期記憶中。有研究(Gordon, 2025)發現：<br />
+          <ul>
+            <li>如果兒童能在 2 次課堂中成功把學過的詞彙說出來，一個月後仍能記住約 60% 的詞彙。</li>
+            <li>如果兒童能在 3 次課堂中做到，一個月後仍能記住約 82% 的詞彙。</li>
+          </ul>
+        </p>
+
+        <p>
+          <b>但當兒童已經能在 3–4 次課堂中成功把學過的詞彙說出來時，繼續反覆練習同一批詞語的效果便會開始減少。</b><br />
+          相比之下，把時間用來學習新的詞彙，可能會更有效率。<br />
+          因此，兒童不單需要大量接觸新詞彙（大約 36 次），也需要有重複回想和練習使用詞彙的機會。
+        </p>
+
+        <h2>Reference:</h2>
+        
+        <p>
+          <a href="https://doi.org/10.1016/j.jml.2025.104678">Calabrese, P., Hedger, N., Pritchard, K., Stojanovik, V., & Pagnamenta, E. (2025). Word learning in children with developmental language disorder: A meta-analysis testing the encoding hypothesis. Journal of Memory and Language, 145, 104678. https://doi.org/10.1016/j.jml.2025.104678</a>
+        </p>
+        <p>
+          <a href="https://doi.org/10.1044/2025_LSHSS-24-00170">Katherine R. Gordon (2025). The number of sessions children with developmental language disorder retrieve words relates positively to retrieval after extended post-training delays. Language, Speech, and Hearing Services in Schools, 56(4), 1287–1295. https://doi.org/10.1044/2025_LSHSS-24-00170</a>          
+        </p>
+      </div>
+    </main>
+    {% include 'footer.html' %}
+  </body>
+</html>
