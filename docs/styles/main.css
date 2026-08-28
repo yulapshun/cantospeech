@@ -283,7 +283,8 @@ footer {
 .index-page .top {
   display: flex;
   flex-direction: column;
-  gap: var(--default-margin);
+  gap: calc(var(--default-margin) * 5);
+  margin-bottom: calc(var(--default-margin) * 6);
 }
 
 .index-page .top > .left {
@@ -312,9 +313,27 @@ footer {
   align-self: flex-start;
 }
 
+.index-page .description-container h4 {
+  font-size: 1.2em;
+  margin: var(--default-margin) 0;
+}
+
+.index-page .description-container .description-item {
+  margin: calc(var(--default-margin) * 2) 0;
+}
+
+.index-page .description-container .description-item h5 {
+  font-size: 1em;
+  margin: 0;
+}
+
+.index-page .description-container .description-item p {
+  margin: 0;
+}
+
 .index-page .poster-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-around;
   gap: calc(var(--default-margin) / 2);
 }
@@ -611,10 +630,6 @@ footer {
 
   main {
     width: calc(100% - 4 * var(--default-margin));
-  }
-
-  main > section {
-    padding-block-start: calc(2 * var(--default-margin));
   }
 
   .index-page .top {

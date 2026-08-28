@@ -46,6 +46,18 @@ msgstr "Click here"
 msgid "fill_form_text"
 msgstr "to fill in an online intake form today!"
 
+msgid "stuttering_fluency_poster_link"
+msgstr "/images/poster_stuttering_fluency_en.png"
+
+msgid "early_intervention_poster_link"
+msgstr "/images/poster_early_intervention_en.png"
+
+msgid "speech_sound_disorders_poster_link"
+msgstr "/images/poster_speech_sound_disorders_en.png"
+
+msgid "social_communication_poster_link"
+msgstr "/images/poster_social_communication_en.png"
+
 msgid "speech_therapy_poster_link"
 msgstr "/images/poster_speech_therapy_en.png"
 
@@ -107,13 +119,61 @@ msgstr "© 2025 CantoSpeech. All Rights Reserved"
 
 # index.html ----------
 msgid "index_header"
-msgstr "Grow With CantoSpeech"
+msgstr "CantoSpeech — Bilingual Speech-Language Therapy in North York & Toronto"
 
 msgid "index_text_1"
-msgstr "At CantoSpeech, we believe every voice has the power to grow."
+msgstr "Speech-language therapy for children, teens, and adults in North York and across Toronto. Services available in English, Cantonese, and Mandarin."
 
 msgid "index_text_2"
-msgstr "Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
+msgstr "At CantoSpeech, we believe every voice has the power to grow. Whether you’re a child building strong communication skills, or a learner discovering the beauty of Cantonese, we’re here to support your journey. Together, let’s play, talk, and grow."
+
+msgid "areas_of_practice_title"
+msgstr "Areas of Practice (regulated services)"
+
+msgid "stuttering_fluency"
+msgstr "Stuttering & Fluency"
+
+msgid "stuttering_fluency_index_description"
+msgstr "Preschool Stuttering • School-Age Stuttering • Adult Stuttering"
+
+msgid "early_intervention"
+msgstr "Early Intervention"
+
+msgid "early_intervention_index_description"
+msgstr "Late Talker • Receptive & Expressive Language • Preschool Speech & Language"
+
+msgid "speech_sound_disorders"
+msgstr "Speech Sound Disorders"
+
+msgid "speech_sound_disorders_index_description"
+msgstr "Articulation Disorders • Phonological Disorders • Childhood Apraxia of Speech (CAS)"
+
+msgid "social_communication_for_autistic_children_and_teens"
+msgstr "Social Communication for autistic children and teens"
+
+msgid "social_communication_for_autistic_children_and_teens_index_description"
+msgstr "Conversation Skills • Perspective-Taking • Self-Advocacy"
+
+msgid "areas_of_support_title"
+msgstr "Areas of Support (non-regulated services)"
+
+msgid "online_cantonese_class"
+msgstr "Online Cantonese Class"
+
+msgid "online_cantonese_class_index_description"
+msgstr "Cantonese for Kids • Conversational Cantonese • Cantonese for Bilingual Children"
+
+msgid "stuttering_fluency_poster_alt_text"
+msgstr "Stuttering & fluency poster"
+
+msgid "early_intervention_poster_alt_text"
+msgstr "Early intervention poster"
+
+msgid "speech_sound_disorders_poster_alt_text"
+msgstr "Speech sound disorders poster"
+
+msgid "social_communication_poster_alt_text"
+msgstr "Social communication poster"
 
 msgid "speech_therapy_link_aria_label"
 msgstr "Link to speech therapy"
