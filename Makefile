@@ -1,6 +1,6 @@
 all: clean build
 
-.PHONY: clean build
+.PHONY: clean build serve
 
 build:
 	find . -name \*.po -execdir msgfmt cantospeech.po -o cantospeech.mo \;
@@ -10,3 +10,6 @@ build:
 
 clean:
 	rm -rf ./docs/*
+
+serve:
+	python -m http.server -d docs
