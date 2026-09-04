@@ -325,13 +325,13 @@ footer {
 .index-page .description-container .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: space-around;
-  gap: calc(var(--default-margin) / 2);
+  align-items: flex-start;
+  justify-items: center;
+  gap: calc(var(--default-margin) * 2) calc(var(--default-margin) / 2);
 }
 
 .index-page .description-container .description-item {
   max-width: 350px;
-  margin: calc(var(--default-margin) * 2) 0;
 }
 
 .index-page .description-container .description-item img {
@@ -339,8 +339,9 @@ footer {
 }
 
 .index-page .description-container .description-item h5 {
-  font-size: 1em;
   margin: 0;
+  line-height: 1.3em;
+  min-height: 2.6em;
 }
 
 .index-page .description-container .description-item p {
@@ -638,6 +639,10 @@ footer {
 
   .index-page .top > .right {
     flex: 4;
+  }
+
+  .index-page .description-container .grid {
+    justify-items: flex-start;
   }
 
   .blog-page {
